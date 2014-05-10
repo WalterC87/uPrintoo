@@ -1,0 +1,146 @@
+extends layout
+
+block content
+	nav#navigation
+		div.container
+			div.row-fluid
+				div.span12.center
+					a.brand.pull-left(href='./')
+						img(src='/img/uPrintoologo.png', alt='Printoo', width='143')
+					div.mobile-menu(data-toggle='collapse',data-target='.nav-collapse')
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					ul#main-menu.nav-collapse.collapse.pull-right
+						li
+							p COMPARTE
+						li
+							a.facebook-share(href='https://www.facebook.com/pages/Printoo/1475470072669968', target="_blank")
+
+						li
+							a.twitter-share(href='https://twitter.com/uprintoo', target='_blank')
+
+		//--div.overlay
+	section#portada.slide
+		section.img-portada
+			img(src='/img/portadas/portada.png', width='100%', height='100%')
+		section.centrada
+			div
+				div.row-fluid.center
+					div.info-principal.span12
+						h1.texto-principal Desde nuestra App escoge las fotos <br> que quieres imprimir, envíalas y <br> recíbelas por paquetería.
+						h3.sub-principal Todo sin pagar <br> nada de nada. 
+
+	section#div-2.slide
+		section.info-portada
+			div.container
+				div.row-fluid.center
+					<br><br>
+					h3.texto-portada 7 de cada 10 personas consideran haber fotografiado momentos increíbles 
+					<br><br><br><br><br><br>
+					div.span5.center.offset5.godown
+						a#a2.arrow-down(href='#div-3')
+		section.img-portada
+			img(src='/img/portadas/skater.png', width='100%', height='100%')
+
+	section#div-3.slide
+		section.info-portada
+			div.container
+				div.row-fluid.center
+					<br><br>
+					h3.texto-portada 8 de cada 10 viajeros consideran que tomaron fotos <br> que valen la pena imprimir
+					<br><br><br><br><br><br><br>
+					div.span2.center.offset5.godown
+						a.arrow-down(href='#div-4')
+		section.img-portada
+			img(src='/img/portadas/ban.png', width='100%', height='100%')
+
+	section#div-4.slide
+		section.info-portada
+			div.container
+				div.row-fluid.center
+					<br><br>
+					h3.texto-portada 6 de cada 10 personas que han perdido su celular <br> se lamentaron también de perder sus fotos.
+					<br><br><br><br><br><br><br>
+					div.span5.center.offset5.godown
+						a.arrow-down(href='#div-5')
+		section.img-portada
+			img(src='/img/portadas/celular.png', width='100%', height='100%')
+	
+	section#div-5.slide
+		section.info-portada
+			div.container
+				div.row-fluid.center
+					<br><br>
+					h3.texto-portada 4 de 5 cada  enamorados regalarían más fotos <br> si fuera más fácil imprimirlas.
+					<br><br><br><br><br><br><br>
+					div.span5.center.offset5.godown
+						a.arrow-down(href='#div-6')
+		section.img-portada
+			img(src='/img/portadas/parejaparaguas.png', width='100%', height='100%')
+	
+	section#div-6.slide
+		section.info-portada
+			div.container
+				div.row-fluid.center
+					<br>
+					h3.texto-portada <strong><span class='tiny'>u</span>Printoo</strong> te ayuda con las fotos que tomas desde tu celular. Olvídate de la flojera de ir a imprimir tus fotos, <br>dile hola a recibirlas GRATIS e impresas en tu casa.
+					<br><br><br><br>
+					div.span5.center.offset5.godown
+						a.arrow-down(href='#div-7')
+		section.img-portada
+			img(src='/img/portadas/papahijo.png', width='100%', height='100%')
+
+	section#div-7.slide
+		section.info-features
+			div.container
+				div.row-fluid
+					div.span11
+						div.span4.feature.offset2
+							div.span12.center
+								div.tag
+							h2.center.title-feature ¿Porqué es <br> gratis?
+							div.info.span8.offset2
+								p.center Es gratis porque detrás de las fotos <span class='sub-texto'>hay publicidad no invasiva y desprendible. </span> <br> Las marcas son las que pagan la impresión y envío de tus fotos.
+						div.span4.feature.offset1
+							div.span12.center
+								div.gift
+							h2.center.title-feature ¿En qué me <br> beneficia?
+							div.info.span10.offset1
+								ul
+									li
+										p Nunca vuelves a perder una buena foto.
+									li
+										p Toma una foto e inmediatamente mándala a imprimir.
+									li
+										p Puedes regalar fotos y postales a tus amigos y familiares.
+					div.span12.center.godown
+						a.arrow-down.offset5(href='#div-8')
+		section.img-portada
+			img(src='/img/portadas/velero.png', width='100%', height='100%')
+
+	section#div-8.slide
+		section.info-portada
+			div.container
+				div.row-fluid.center
+					h3.texto-portada Somos la aplicación y sitio Web que cambiará la <br> impresión fotográfica  <br>
+
+					h4.subtitulo-portada Como era antes pero moderno y fácil.
+
+				div.span12.newlester
+					h4.italic-portada.center.span11 Regístrate para poder utilizar la versión Beta y tener <br> la oportunidad  de recibir impresiones ilimitadas de por vida...
+					div.row-fluid.center
+						div.registro-newlester.span10.offset1
+							form.span12(method='POST', action='/registro/newlester', name='newlester_register_form')#newlester_register_form
+								input#txtMail(type='email',name='txtMail', placeholder='Mi email es...')
+								button.btn.btn-primary(type='submit', id='btnLoginNewlester') Registrar
+
+
+	include footer
+block scripts
+	script(src='/js/vendors/jquery.min.js')				
+	script(src='/js/vendors/jquery.parallax-1.1.3.min.js')				
+	script(src='/js/vendors/modernizr.min.js')				
+	script(src='/js/vendors/jquery.scrollTo.min.js')
+	script(src='/js/vendors/localscroll.js')				
+	script(src='/js/printoo.js')			

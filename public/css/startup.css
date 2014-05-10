@@ -1,0 +1,74 @@
+html{background-color:rgba(134,237,79,0.5)}
+body{background-color:transparent}
+header figure,header nav{display:inline-block;vertical-align:middle;height:100%}
+header figure{background-color:#ecf0f1;width:25%}
+header nav{margin-left:15px;width:70%;}
+header nav ul{height:100%;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+header nav ul li{display:inline-block;height:100%;margin-left:10px;margin-right:15px;padding:20px;vertical-align:top;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
+header nav ul li a{color:#fff;font-size:18px;font-family:'Montserrat','Arial'}
+header nav ul li a:hover{color:#fff;text-decoration:none}
+header nav ul li:hover{background-color:rgba(134,237,79,0.5);cursor:pointer;-webkit-transition:all .3s ease-in-out}
+.fixed{width:100%;position:fixed;top:0;left:1px;z-index:9999}
+.centrada,.centrada-success{border-radius:15px;padding:10px 45px 10px 45px;float:left;position:absolute;z-index:1}
+.centrada{background-color:rgba(66,11,10,0.1);left:18.8%;top:23%}
+.centrada-success{background-color:rgba(66,11,10,0.3);left:8%;top:25%}
+.italic-portada-success{color:#fff;font-family:'Exo 2';font-style:italic;font-weight:500;line-height:110%;font-size:20px}
+.hashtag{color:#fff;font-family:font-family 'Exo 2';font-size:50px;font-weight:500,bold;line-height:120%}
+.texto-principal{color:#fff;font-family:'Ubuntu';font-style:italic;font-size:40px;line-height:120%}
+.texto-principal-sucess{color:#fff;font-family:'Ubuntu';font-size:35px;line-height:120%}
+.slide .info-portada,.slide .info-features{background-color:rgba(134,237,79,0.5);color:#fff}
+.slide .info-portada{padding:130px 0 0 0;height:550px}
+.slide .info-features{padding:50px 0 35px 0}
+.texto-portada,.subtitulo-portada{font-family:'Exo';font-weight:600;line-height:135%;color:#fff}
+.texto-portada{font-size:45px;padding-bottom:10px}
+.tiny{font-size:38px}
+.feature{background-color:rgba(102,228,113,0.5);-webkit-border-radius:25px;-moz-border-radius:25px;-o-border-radius:25px;-ms-border-radius:25px;height:650px;}
+.feature .info p{font-family:'Ubuntu';font-style:italic;font-size:25px;line-height:120%}
+.sub-texto,.sub-principal{font-family:'Satisfy';line-height:125%}
+.sub-principal{font-size:85px;color:#fff}
+.sub-texto{font-size:35px}
+.title-feature{color:#0031a2;font-family:'Exo';font-weigth:600 bold;font-size:50px;line-height:110%}
+.tag,.gift{background-image:url("/img/iconos/tag_gift.png");background-size:200%;background-repeat:no-repeat;margin-top:5%;margin-bottom:4%;margin-left:37%;width:125px;height:125px}
+.tag:hover,.gift:hover{cursor:pointer;-webkit-animation:ringing 4s 7 ease .3s;-moz-animation:ringing 4s 7 ease .3s;-o-animation:ringing 4s 7 ease .3s;-ms-animation:ringing 4s 7 ease .3s}
+.tag{background-position:0 0}
+.gift{background-position:-125px 0}
+.arrow-down,.facebook,.twitter,.facebook-success:hover,.twitter-success:hover{background-image:url("/img/iconos/networks.png");background-size:300%;background-repeat:no-repeat;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+.arrow-down:hover,.facebook:hover,.twitter:hover,.facebook-success,.twitter-success{background-image:url("/img/iconos/buttons_hover_sprite.png");background-size:300%;background-repeat:no-repeat}
+.facebook-success,.twitter-success{width:35px;height:45px}
+.facebook-success{background-position:0 0;}
+.facebook-success:hover{background-position:0 0}
+.twitter-success{background-position:-60px 0;}
+.twitter-success:hover{background-position:-60px 0}
+a.arrow-down{background-position:-170px 0;width:85px;height:85px;margin-top:8%;font-family:'Open Sans',sans-serif;font-size:13px;font-weight:bold;text-transform:uppercase;line-height:18px;letter-spacing:1px;color:#292929;margin:0;text-decoration:none;text-shadow:0 1px 0 #fff;position:relative;display:block}
+.arrow-down:hover{cursor:pointer;background-position:-170px 0;width:85px;height:85px}
+.facebook,.twitter{margin:0;padding:0;width:15px;height:22px}
+.facebook{background-position:0 0;}
+.facebook:hover{background-position:0 0}
+.twitter{background-position:-35px 0;}
+.twitter:hover{background-position:-35px 0}
+.facebook-share,.twitter-share{background-image:url("/img/iconos/networks.png");background-size:300%;background-repeat:no-repeat;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+.facebook-share:hover,.twitter-share:hover{background-image:url("/img/iconos/buttons_hover_sprite.png");background-size:300%;background-repeat:no-repeat}
+.facebook-share,.twitter-share{width:20px;height:30px}
+.facebook-share{background-position:0 0;}
+.facebook-share:hover{background-position:0 0}
+.twitter-share{background-position:-30px 0;}
+.twitter-share:hover{background-position:-30px 0}
+.newlester{background-color:rgba(105,208,232,0.8);border-radius:25px;margin:0;padding:0}
+.italic-portada{color:#fff;font-family:'Exo 2';font-style:italic;font-weight:500;line-height:110%;font-size:30px}
+.registro-newlester{margin-top:5px;padding-top:15px;}
+.registro-newlester form #txtMail,.registro-newlester form button{vertical-align:top}
+.registro-newlester form #txtMail{color:#868686;border-radius:10px;width:60%;height:30px;margin-right:10px}
+a.terminos{color:#000;font-size:13px;font-weight:bold;margin:0;padding:0;}
+a.terminos:first-child{margin-top:15px}
+a.terminos:hover{cursor:pointer;text-decoration:underline}
+.innomobs{color:#000;text-decoration:underline;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
+.innomobs:hover{cursor:pointer;color:#8e44ad}
+#contact{background-color:#fff}
+.terminos-privacidad{background-color:#fff;margin:0 auto;padding:0;padding:0 15px 15px 20px;position:absolute;left:3%;margin-top:65px;}
+.terminos-privacidad .titulo-terminos,.terminos-privacidad .texto-terminos,.terminos-privacidad .sub-terminos,.terminos-privacidad .sub-privacidad{font-family:"Exo 2"}
+.terminos-privacidad .titulo-terminos{font-size:45px;text-align:center}
+.terminos-privacidad .sub-terminos{font-size:23px;text-align:left;text-decoration:underline;text-transform:uppercase}
+.terminos-privacidad .sub-privacidad{font-size:20px;text-align:left}
+.terminos-privacidad .texto-terminos{font-size:19px;text-align:justify}
+.terminos-privacidad article ul li p{font-family:"Exo 2";font-size:19px;text-align:justify}
+.terminos-privacidad article ul li.list-terminos{font-family:"Exo 2";font-size:19px;padding-top:3px;padding-bottom:3px;text-align:justify}

@@ -1,0 +1,24 @@
+extends layout
+
+block content
+	include menu
+
+	section#portada.slide
+		section.img-portada
+			img(src='/img/portadas/agradecimiento.png', width='100%', height='50%')
+		section.centrada-success
+			div
+				div.row-fluid.center
+					div.info-principal.span12
+						h1.texto-principal-sucess Gracias, que te haya gustado nuestra idea, <br> nos impulsa a salir a buscar nuestros sueños.
+						div#social-contact.sucess-printoo.center.span12
+							ul
+								li
+									a.facebook-success(href='https://www.facebook.com/pages/Printoo/1475470072669968', target="_blank")
+										//--img(src='/img/contacto/facebook.png')
+								li.offset3
+									a.twitter-success(href='https://twitter.com/uprintoo', target="_blank")
+						h3.italic-portada-success.span12 Más compartes y más posibilidades tienes de ser de los primeros en utilizar uPrintoo Beta.
+						h2.hashtag #apoyastartupsmexicanas
+
+	include footer
