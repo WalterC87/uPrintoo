@@ -1087,9 +1087,10 @@
 
 .correo{
   color: #a0f41c; /*#86ED4F;*/
-  font-size:16px;
+  font-size:20px;
   line-height: 15px;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 .contact{
@@ -2601,10 +2602,10 @@ h4 {
   letter-spacing: 1px;
 }
 h5 {
-  font-size: 19px;
+  font-size: 15px;
   text-transform: uppercase;
   font-weight: 800;
-  margin: 19.28571428571429px 0;
+  margin: 12px 0 19.28571428571429px 0;
   letter-spacing: 1px;
 }
 h6 {
@@ -8020,7 +8021,7 @@ a.badge:focus {
     font-size: 19px;
   }
   h5 {
-    font-size: 19px;
+    font-size: 13px;
   }
   h6 {
     font-size: 15.200000000000001px;
