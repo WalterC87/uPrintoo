@@ -47,7 +47,7 @@ var apiController = function(app){
 								from : "Equipo uPrintoo",
 								to : email,
 								subject : "Registro para uPrintoo Beta",
-								html : "<div style='width:100%'><div style='margin: 0 auto; padding: 0; width:640px;'><p><strong>Hola, Otra vez: </strong></p> <br> <p> De nuevo gracias por creer que uPrintoo será la aplicación web y móvil que cambiará la forma de imprimir fotografías.</p><br> <p>Toma una foto e inmediatamente  imprímela y recíbela gratis. <br><br> Puedes imprimir y enviar fotos para alguien más si así lo prefieres. <br><br> Jamás volverás a perder fotografías, mejor imprímelas.</p> <br><br><br> <p style='text-align:center'>Espera nuestra versión Beta</p> <p style='text-align:right'>Comparte de nuevo</p> <br> <p style='text-align:right'>El equipo uPrintoo</p> <div style='width:100%'><img src='/img/footer_img.png'/></div>  </div></div>"
+								html : "<div style='width:100%'><div style='margin: 0 auto; padding: 0; width:640px;'><p><strong>Hola, Otra vez: </strong></p> <br> <p> De nuevo gracias por creer que uPrintoo será la aplicación web y móvil que cambiará la forma de imprimir fotografías.</p><br> <p>Toma una foto e inmediatamente  imprímela y recíbela gratis. <br><br> Puedes imprimir y enviar fotos para alguien más si así lo prefieres. <br><br> Jamás volverás a perder fotografías, mejor imprímelas.</p> <br><br><br> <p style='text-align:center'>Espera nuestra versión Beta</p> <p style='text-align:right'>Comparte de nuevo</p> <br> <p style='text-align:right'>El equipo uPrintoo</p> <div style='width:100%'><img src='http://printoo.me/img/footer_img.png'/></div>  </div></div>"
 							}
 
 							smtpTransport.sendMail(mailOptions, function (err,response){
