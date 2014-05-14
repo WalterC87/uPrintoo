@@ -58,20 +58,36 @@ header
 
 .centrada, .centrada-success
 	
-	border-radius 15px
-	
+	border-radius 15px	
 	padding 10px 45px 10px 45px
-	float left
 	position absolute
 	z-index 1
+
 .centrada
 	background-color rgba(66,11,10,0.1)
-	left 18.8%
-	top 23%
+	left 0
+	right 0
+	top 0
+	bottom 0
+	margin-left auto
+	margin-right auto
+	margin-top auto
+	margin-bottom auto
+	width 65%
+	height 60%
+
 .centrada-success
 	background-color rgba(66,11,10,0.3)
-	left 8%
-	top 25%
+	left 0
+	right 0
+	top 0
+	bottom 0
+	margin-left auto
+	margin-right auto
+	margin-top auto
+	margin-bottom auto
+	width 65%
+	height 55%
 .italic-portada-success
 	color #fff
 	font-family 'Exo 2'
@@ -197,8 +213,8 @@ header
 	background-repeat no-repeat	
 
 .facebook-success, .twitter-success
-	width 35px
-	height 45px
+	width 55px
+	height 65px
 
 .facebook-success
 	background-position 0 0
@@ -206,9 +222,9 @@ header
 		background-position 0 0
 
 .twitter-success
-	background-position -60px 0
+	background-position -75px 0
 	&:hover
-		background-position -60px 0
+		background-position -75px 0
 
 a.arrow-down
 	background-position -120px 0
@@ -299,7 +315,7 @@ a.arrow-down
 	padding-top 15px
 
 	form
-		#txtMail, button 
+		#txtMail, a.submit 
 			vertical-align top
 
 		#txtMail
@@ -308,6 +324,12 @@ a.arrow-down
 			width 60%
 			height 30px
 			margin-right 10px
+
+		a.submit
+			width 125px
+			img
+				width 125px
+
 
 a.terminos
 	color #000

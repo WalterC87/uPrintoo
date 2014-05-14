@@ -5,4 +5,8 @@ $(document).ready(function(){
     });
 
     $('#portada').parallax("50%", 0.1);
+
+    $('.submit').on('click',function(){
+        document.forms['newlester_register_form'].submit();
+    });
 });

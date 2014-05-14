@@ -18,18 +18,21 @@ block content
 							a.facebook-share(href='https://www.facebook.com/pages/Printoo/1475470072669968', target="_blank")
 
 						li
-							a.twitter-share(href='https://twitter.com/uprintoo', target='_blank')
+							a.twitter-share(href='https://twitter.com/printoome', target='_blank')
 
 		//--div.overlay
 	section#portada.slide
 		section.img-portada
-			img(src='/img/portadas/portada.png', width='100%', height='100%')
+			img(src='/img/portadas/portada.jpg', width='100%', height='100%')
 		section.centrada
 			div
 				div.row-fluid.center
 					div.info-principal.span12
 						h1.texto-principal Desde nuestra App escoge las fotos <br> que quieres imprimir, envíalas y <br> recíbelas por paquetería.
 						h3.sub-principal Todo sin pagar <br> nada de nada. 
+						<br><br>
+						div.span5.center.offset5.godown
+							a.arrow-down(href='#div-2')
 
 	section#div-2.slide
 		section.info-portada
@@ -39,9 +42,9 @@ block content
 					h3.texto-portada 7 de cada 10 personas consideran haber fotografiado momentos increíbles.
 					<br><br><br><br><br><br><br><br><br>
 					div.span5.center.offset5.godown
-						a#a2.arrow-down(href='#div-3')
+						a.arrow-down(href='#div-3')
 		section.img-portada
-			img(src='/img/portadas/skater.png', width='100%', height='100%')
+			img(src='/img/portadas/skater.jpg', width='100%', height='100%')
 
 	section#div-3.slide
 		section.info-portada
@@ -53,7 +56,7 @@ block content
 					div.span2.center.offset5.godown
 						a.arrow-down(href='#div-4')
 		section.img-portada
-			img(src='/img/portadas/ban.png', width='100%', height='100%')
+			img(src='/img/portadas/ban.jpg', width='100%', height='100%')
 
 	section#div-4.slide
 		section.info-portada
@@ -65,7 +68,7 @@ block content
 					div.span5.center.offset5.godown
 						a.arrow-down(href='#div-5')
 		section.img-portada
-			img(src='/img/portadas/celular.png', width='100%', height='100%')
+			img(src='/img/portadas/celular.jpg', width='100%', height='100%')
 	
 	section#div-5.slide
 		section.info-portada
@@ -77,7 +80,7 @@ block content
 					div.span5.center.offset5.godown
 						a.arrow-down(href='#div-6')
 		section.img-portada
-			img(src='/img/portadas/parejaparaguas.png', width='100%', height='100%')
+			img(src='/img/portadas/parejaparaguas.jpg', width='100%', height='100%')
 	
 	section#div-6.slide
 		section.info-portada
@@ -89,7 +92,7 @@ block content
 					div.span5.center.offset5.godown
 						a.arrow-down(href='#div-7')
 		section.img-portada
-			img(src='/img/portadas/papahijo.png', width='100%', height='100%')
+			img(src='/img/portadas/papahijo.jpg', width='100%', height='100%')
 
 	section#div-7.slide
 		section.info-features
@@ -133,7 +136,9 @@ block content
 						div.registro-newlester.span10.offset1
 							form.span12(method='POST', action='/registro/newlester', name='newlester_register_form')#newlester_register_form
 								input#txtMail(type='email',name='txtMail', placeholder='Mi email es...' required='required')
-								button.btn.btn-primary(type='submit', id='btnLoginNewlester') Registrar
+								//--button.btn.btn-primary.registrar(type='submit', id='btnLoginNewlester') Registrar
+								a.submit.registrar(href="#")
+									img(src='/img/iconos/btn_enviar.png')
 
 
 	include footer
