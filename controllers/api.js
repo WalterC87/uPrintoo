@@ -34,13 +34,19 @@ var apiController = function(app){
 					}else{
 						console.log('success');
 						//function(){
-							debugger;
 							var smtpTransport = nodemailer.createTransport('SMTP',{
-								service : "Gmail",
+								/*service : "Gmail",
 								auth	: {
 									user : 'uprintoo@gmail.com',
 									pass : 'Printoomkt'
+								}*/
+								host : "smtpout.secureserver.net",
+								port : "465 ",
+								auth : {
+									user : "hola@printoo.me",
+									pass : "Printoomail"
 								}
+
 							});
 
 							var mailOptions = {

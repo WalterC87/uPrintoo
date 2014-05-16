@@ -430,14 +430,14 @@
   }
 }
 
-.registrar:hover {
+/*.registrar:hover {
   display: inline-block;
   -moz-animation: horizontal 2.0s 5 ease 0.2s;
   -webkit-animation: horizontal 2.0s 5 ease 0.2s;
   -o-animation: horizontal 2.0s 5 ease 0.2s;
   -ms-animation: horizontal 2.0s 5 ease 0.2s;
   animation: horizontal 2.0s 5 ease 0.2s;
-}
+}*/
 
 @-webkit-keyframes horizontal{
   0% {
@@ -1300,10 +1300,10 @@
 
 /*Navigation Principal*/
 #navigation {
-  background-color: rgba(255,255,255, 0.7);
+  background-color: rgba(255,255,255, 1);
   width: 100%;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
-  position: absolute;
+  position: fixed;
   z-index: 2000;
   
   *z-index: 2000;
@@ -1317,7 +1317,7 @@
   float: right;
   margin: 0 auto;
   padding: 0px;
-  margin-top: 0.5%;
+  margin-top: 0.2%;
   position: relative;
   text-align: center;
   line-height: 18px;
