@@ -1618,7 +1618,6 @@ footer {
   cursor: pointer;
   display: inline-block;
   vertical-align: top;
-  margin-right: 10px;
   width: 60px;
 }
 
@@ -1634,7 +1633,7 @@ footer {
   cursor: pointer;
   display: inline-block;
   vertical-align: top;
-  margin-right: 50px;
+  margin-right: 25px;
   width: 60px;
 }
 
@@ -2367,6 +2366,7 @@ a:hover {
   width: 100%;
   *zoom: 1;
 }
+
 .row-fluid:before,
 .row-fluid:after {
   display: table;

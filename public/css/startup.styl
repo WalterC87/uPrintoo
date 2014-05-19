@@ -99,7 +99,7 @@ section.img-portada
 	z-index 1
 
 .centrada
-	background-color rgba(66,11,10,0.1)
+	/*background-color rgba(66,11,10,0.1)*/
 	left 0
 	right 0
 	top 0
@@ -126,7 +126,7 @@ section.img-portada
 .italic-portada-success
 	color #fff
 	font-family 'Exo 2'
-	font-style italic 
+	font-style none 
 	font-weight 500
 	line-height 110%
 	font-size 20px
@@ -158,7 +158,7 @@ section.img-portada
 		background-color bk-color
 		color #fff
 
-	.info-portada
+	.info-portada, .info-features
 		padding 130px 0px 0px 0px
 		height 550px
 	.info-portada-ultima
@@ -166,7 +166,16 @@ section.img-portada
 		height 350px
 
 	.info-features
-		padding 50px 0px 35px 0px
+		padding 130px 0px 100px 0px
+		position relative
+		/*width 300%*/
+		height 600px
+		overflow hidden
+
+		.section-feature
+			width 33.33%
+			display inline-block
+			vertical-align top
 
 .texto-portada, .subtitulo-portada
 	font-family 'Exo'
@@ -177,6 +186,14 @@ section.img-portada
 .texto-portada
 	font-size 45px
 	padding-bottom 10px
+	left 0
+	right 0
+	top 0
+	bottom 0
+	margin-left auto
+	margin-right auto
+	margin-top auto
+	margin-bottom auto
 .tiny
 	font-size 30px
 
@@ -190,20 +207,28 @@ section.img-portada
 	-moz-border-radius 25px
 	-o-border-radius 25px
 	-ms-border-radius 25px
-	height 650px
+	height 550px
+	width 35%
+	margin 0 auto
+	padding 0
 
 	.info 
 		p
 			font-family 'Ubuntu'
-			font-style italic
-			font-size 25px
+			/*font-style italic*/
+			font-size 28px
 			line-height 120%
+	.info-li
+		p
+			font-family 'Ubuntu'
+			/*font-style italic*/
+			font-size 22px
 
 .sub-principal
 	font-family 'Ubuntu'
 	font-weigth bold
 	line-height 125%
-	font-size 85px
+	font-size 65px
 	color #fff
 .sub-texto
 	font-size 35px
@@ -215,7 +240,7 @@ section.img-portada
 	font-size 50px
 	line-height 110%
 
-.tag, .gift
+.tag, .gift,.guest
 	background-image url('/img/iconos/tag_gift.png')
 	background-size 300%
 	background-repeat no-repeat
@@ -225,7 +250,7 @@ section.img-portada
 	width 125px
 	height 125px
 
-.tag:hover, .gift:hover
+.tag:hover, .gift:hover, .guest:hover
 	cursor pointer
 	-webkit-animation ringing 4.0s 7 ease .300s
 	-moz-animation ringing 4.0s 7 ease .300s
@@ -238,7 +263,10 @@ section.img-portada
 .gift
 	background-position -125px 0
 
-.arrow-down, .facebook, .twitter, .facebook-success:hover, .twitter-success:hover
+.guest
+	background-position -250px 0
+
+.facebook, .twitter, .instagram, .facebook-success:hover, .twitter-success:hover
 	background-image url('/img/iconos/networks.png')
 	background-size 300%
 	background-repeat no-repeat	
@@ -247,9 +275,31 @@ section.img-portada
 	-o-transition all 0.3s ease-in-out
 	transition all 0.3s ease-in-out
 
+.arrow-down, .arrow-up, .arrow-left, .arrow-right
+	background-image url('/img/iconos/arrows.png')
+	background-size 400%
+	background-repeat no-repeat	
+	-webkit-transition all 0.3s ease-in-out
+	-moz-transition all 0.3s ease-in-out
+	-o-transition all 0.3s ease-in-out
+	transition all 0.3s ease-in-out
+	width 60px
+	height 60px
+	margin-top 8%
+	margin 0px
+	position relative
+	display block
 
-.arrow-down:hover, .facebook:hover, .twitter:hover, .facebook-success, .twitter-success
-	background-image url('/img/iconos/buttons_hover_sprite.png')
+.arrow-down:hover, .arrow-up:hover, .arrow-left:hover, .arrow-right:hover
+	background-image url('/img/iconos/arrow_hover.png')
+	background-size 400%
+	background-repeat no-repeat
+	cursor pointer
+	width 60px
+	height 60px	
+
+.facebook:hover, .twitter:hover, .instagram:hover, .facebook-success, .twitter-success
+	background-image url('/img/iconos/networks_hover.png')
 	background-size 300%
 	background-repeat no-repeat	
 
@@ -268,30 +318,31 @@ section.img-portada
 		background-position -75px 0
 
 a.arrow-down
-	background-position -120px 0
-	width 60px
-	height 60px
-	margin-top 8%
-	font-family 'Open Sans', sans-serif
-	font-size 13px
-	font-weight bold
-	text-transform uppercase
-	line-height 18px
-	letter-spacing 1px
-	color #292929
-	/*padding 12px 15px*/
-	margin 0px
-	text-decoration none
-	text-shadow 0 1px 0 #ffffff
-	position relative
-	display block
-.arrow-down:hover
-	cursor pointer
-	background-position -120px 0
-	width 60px
-	height 60px
+	background-position 0 0
+	margin-top 20px
+	&:hover
+		background-position 0 0
+a.arrow-up
+	margin-top -40px
+	margin-left 30px
+	background-position -60px 0
 
-.facebook, .twitter
+a.up-feature
+	height 60px
+	width 60px
+	margin 0 auto
+	padding 0
+
+a.arrow-left
+	background-position -120px 0
+
+a.arrow-right
+	background-position -180px
+	position relative
+	z-index 3
+	margin-top -25%
+
+.facebook, .twitter, .instagram
 	margin 0
 	padding 0
 	width 15px
@@ -307,7 +358,12 @@ a.arrow-down
 	&:hover
 		background-position -35px 0
 
-.facebook-share, .twitter-share
+.instagram
+	background-position -70px 0
+	&:hover
+		background-position -70px 0
+
+.facebook-share, .twitter-share, .instagram-share
 	background-image url('/img/iconos/networks.png')
 	background-size 300%
 	background-repeat no-repeat	
@@ -316,12 +372,12 @@ a.arrow-down
 	-o-transition all 0.3s ease-in-out
 	transition all 0.3s ease-in-out
 
-.facebook-share:hover, .twitter-share:hover
-	background-image url('/img/iconos/buttons_hover_sprite.png')
+.facebook-share:hover, .twitter-share:hover, .instagram-share:hover
+	background-image url('/img/iconos/networks_hover.png')
 	background-size 300%
 	background-repeat no-repeat
 
-.facebook-share, .twitter-share
+.facebook-share, .twitter-share, .instagram-share
 	width 20px
 	height 30px
 
@@ -334,6 +390,11 @@ a.arrow-down
 	background-position -30px 0
 	&:hover
 		background-position -30px 0
+
+.instagram-share
+	background-position -60px 0
+	&:hover
+		background-position -60px 0
 
 .newlester
 	background-color transparent

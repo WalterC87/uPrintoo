@@ -2,26 +2,7 @@ extends layout
 
 block content
 	include menu
-	//--nav#navigation
-		div.container
-			div.row-fluid
-				div.span12.center
-					a.brand.pull-left(href='./')
-						img(src='/img/uPrintoologo.png', alt='Printoo', width='143')
-					div.mobile-menu(data-toggle='collapse',data-target='.nav-collapse')
-						span.icon-bar
-						span.icon-bar
-						span.icon-bar
-					ul#main-menu.nav-collapse.collapse.pull-right
-						li
-							p COMPARTE
-						li
-							a.facebook-share(href='https://www.facebook.com/pages/Printoo/1475470072669968', target="_blank")
-
-						li
-							a.twitter-share(href='https://twitter.com/printoome', target='_blank')
-
-		//--div.overlay
+	
 	section#portada.slide
 		section.img-portada
 			//--img(src='/img/portadas/portada.jpg', width='100%', height='100%')
@@ -29,8 +10,8 @@ block content
 			div
 				div.row-fluid.center
 					div.info-principal.span12
-						h1.texto-principal Mensualmente manda a imprimir <br> y recibe en tu casa tus fotos favoritas.
-						h3.sub-principal Sin pagar nada. 
+						h1.texto-principal Mensualmente manda a <br> imprimir y recibe en tu casa <br> tus fotos favoritas.
+						h3.span12.sub-principal Sin pagar nada de nada . 
 						<br><br><br><br><br><br><br><br>
 						div.span5.center.offset5.godown
 							a.arrow-down(href='#div-2')
@@ -39,11 +20,13 @@ block content
 		section.info-portada
 			div.container
 				div.row-fluid.center
-					<br><br>
+					div.span12.center(style='margin-left:30px')
+						a.offset5.arrow-up(href='#portada')
+					<br><br><br><br><br><br>
 					h3.texto-portada 7 de cada 10 personas han <br> fotografiado momentos increíbles.
-					<br><br><br><br><br><br><br><br>
-					div.span5.center.offset5.godown
-						a.arrow-down(href='#div-3')
+					<br><br><br><br>
+					div.span12
+						a.offset5.arrow-down(href='#div-3')
 		section.img-portada
 			//--img(src='/img/portadas/skater.jpg', width='100%', height='100%')
 
@@ -51,9 +34,11 @@ block content
 		section.info-portada
 			div.container
 				div.row-fluid.center
-					<br><br>
+					div.span12.center(style='margin-left:30px')
+						a.offset5.arrow-up(href='#div-2')
+					<br><br><br><br><br><br>
 					h3.texto-portada 8 de cada 10 viajeros tomaron fotos <br> que valen la pena imprimir.
-					<br><br><br><br><br><br><br><br><br>
+					<br><br><br><br>
 					div.span2.center.offset5.godown
 						a.arrow-down(href='#div-4')
 		section.img-portada
@@ -63,9 +48,11 @@ block content
 		section.info-portada
 			div.container
 				div.row-fluid.center
-					<br><br>
+					div.span12.center(style='margin-left:30px')
+						a.offset5.arrow-up(href='#div-3')
+					<br><br><br><br><br><br>
 					h3.texto-portada 6 de cada 10 personas han borrado <br> digitalmente fotos irrebatibles.
-					<br><br><br><br><br><br><br><br><br>
+					<br><br><br><br>
 					div.span5.center.offset5.godown
 						a.arrow-down(href='#div-5')
 		section.img-portada
@@ -75,9 +62,11 @@ block content
 		section.info-portada
 			div.container
 				div.row-fluid.center
-					<br><br>
+					div.span12.center(style='margin-left:30px')
+						a.offset5.arrow-up(href='#div-4')
+					<br><br><br><br><br><br>
 					h3.texto-portada 4 de 5 cada  enamorados regalarían más fotos <br> si fuera más fácil imprimirlas.
-					<br><br><br><br><br><br><br><br><br>
+					<br><br><br><br>
 					div.span5.center.offset5.godown
 						a.arrow-down(href='#div-6')
 		section.img-portada
@@ -87,9 +76,11 @@ block content
 		section.info-portada
 			div.container
 				div.row-fluid.center
-					<br>
-					h3.texto-portada <strong><span class='tiny negrita'>u</span>Printoo</strong> te ayuda con las fotos que tomas.<br>Ólvidate de la flojera de ir a imprimirlas y dile <br> <span class="negrita">hola</span> a la comidad de recibirlas en tu casa.
-					<br><br><br><br><br><br><br><br>
+					div.span12.center(style='margin-left:30px')
+						a.offset5.arrow-up(href='#div-5')
+					<br><br><br><br>
+					h3.texto-portada <strong><span class='tiny negrita'>u</span><span style="font-weight:bold">Printoo</span></strong> te ayuda con las fotos que tomas.<br>Ólvidate de la flojera de ir a imprimirlas y dile <br> <span style="font-weight:bold">hola</span> a la comodidad de recibirlas en tu casa.
+					<br><br><br><br>
 					div.span5.center.offset5.godown
 						a.arrow-down(href='#div-7')
 		section.img-portada
@@ -99,26 +90,37 @@ block content
 		section.info-features
 			div.container
 				div.row-fluid
+					div.span12.center(style='margin-left:30px; margin-top:-60px')
+						a.offset5.arrow-up(href='#div-6')
 					div.span11
-						div.span4.feature.offset2
+						div.span4.feature
 							div.span12.center
 								div.tag
-							h2.center.title-feature ¿Porqué es <br> gratis?
-							div.info.span8.offset2
-								p.center Es gratis porque detrás de las fotos <span class='sub-texto'>hay publicidad no invasiva y desprendible. </span> <br> Las marcas son las que pagan la impresión y envío de tus fotos.
-						div.span4.feature.offset1
+							h2.center.title-feature ¿Por qué es <br> gratis?
+							div.info.span10.offset1
+								p.center Porque detrás <br> de las fotos <br> ponemos <br> cupones y <span style="font-weight:bold">publicidad</span> <br> no invasiva.
+
+						div.span4.feature
+							div.span12.center
+								div.guest
+							h2.center.title-feature ¿Por qué es <br> gratis?
+							div.info.span10
+								p Desde nuestra <br> aplicación móvil o <br> sitio web escoges las <br> fotos que quieres <br> imprimir, dale enviar <br> y <span style="font-weight:bold">listo</span> las recibes <br> por correo postal.
+
+						div.span4.feature
 							div.span12.center
 								div.gift
 							h2.center.title-feature ¿En qué me <br> beneficia?
-							div.info.span10.offset1
+							div.info-li.span11
 								ul
 									li
-										p Nunca vuelves a perder una buena foto.
+										p te olvidas de buscar e ir al lugar  donde imprimir tus fotos.
 									li
-										p Toma una foto e inmediatamente mándala a imprimir.
+										p puedes enviar como <span style="font-weight:bold">regalo</span> fotos a quienes tu quieras.
 									li
-										p Puedes regalar fotos y postales a tus amigos y familiares.
-					div.span12.center.godown
+										p Toma una foto desde tu celular y la puedes mandar a imprimir inmediatamente.
+					<br><br>
+					div.span12.center
 						a.arrow-down.offset5(href='#div-8')
 		section.img-portada
 			//--img(src='/img/portadas/velero.png', width='100%', height='100%')
@@ -127,6 +129,10 @@ block content
 		section.info-portada-ultima
 			div.container
 				div.row-fluid.center
+					div.span12.center(style='margin-left:30px')
+						a.offset5.arrow-up(href='#div-7')
+					<br><br>
+
 					h3.texto-portada Regístrate para poder utilizar nuestra versón <span class="negrita"> Beta </span> y tener la <br> oportunidad de recibir <span class="negrita">fotos ilimitadas</span> de por vida.
 
 				div.span10.newlester
