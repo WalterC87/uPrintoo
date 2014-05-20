@@ -41,7 +41,7 @@ var apiController = function(app){
 									pass : 'Printoomkt'
 								}*/
 								host : "smtpout.secureserver.net",
-								port : "465 ",
+								port : "3535 ",
 								auth : {
 									user : "hola@printoo.me",
 									pass : "Printoomail"
