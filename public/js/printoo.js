@@ -21,7 +21,20 @@ $(document).ready(function(){
         document.forms['newlester_register_form'].submit();
     });
 
-
+    if( $(".animated")[0] ) {
+        $('.animated').css('opacity','0');
+    }
+    
+    $('.triggerAnimation').waypoint(function() {
+        var animation = $(this).attr('data-animate');
+        console.log(animation);
+        $(this).css('opacity','');
+        $(this).addClass(animation);
+    },
+    {
+        offset: '80%',
+        triggerOnce: true
+    });
 
 
 });

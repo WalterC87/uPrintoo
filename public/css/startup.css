@@ -31,11 +31,11 @@ section.img-portada{width:100%;height:700px}
 .slide .info-features .section-feature{width:33.33%;display:inline-block;vertical-align:top}
 .texto-portada,.subtitulo-portada{font-family:'Exo';font-weight:600;line-height:135%;color:#fff}
 .texto-portada{font-size:45px;padding-bottom:10px;left:0;right:0;top:0;bottom:0;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto}
-.tiny{font-size:30px}
+.tiny{font-size:25px}
 .negrita{font-family:"Exo 2";font-style:"Black"}
-.feature{background-color:rgba(102,228,113,0.5);-webkit-border-radius:25px;-moz-border-radius:25px;-o-border-radius:25px;-ms-border-radius:25px;height:550px;width:35%;margin:0 auto;padding:0;}
-.feature .info p{font-family:'Ubuntu';font-size:28px;line-height:120%}
-.feature .info-li p{font-family:'Ubuntu';font-size:22px}
+.feature{background-color:rgba(102,228,113,0.5);-webkit-border-radius:25px;-moz-border-radius:25px;-o-border-radius:25px;-ms-border-radius:25px;height:600px;width:35%;margin:0 auto;padding:0;}
+.feature .info p{font-family:'Ubuntu';font-size:25px;line-height:120%}
+.feature .info-li p{font-family:'Ubuntu';font-size:25px}
 .sub-principal{font-family:'Ubuntu';font-weigth:bold;line-height:125%;font-size:65px;color:#fff}
 .sub-texto{font-size:35px}
 .title-feature{color:#0031a2;font-family:'Exo';font-weigth:bold;font-size:50px;line-height:110%}
