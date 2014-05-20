@@ -4,7 +4,7 @@ var error;
 var connection = mysql.createPool({
 				 	host : 'localhost',
 				 	user : 'root',
-				 	password : '',
+				 	password : 'root',
 				 	database : 'uprintoo'
              	});
 
