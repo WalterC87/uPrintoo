@@ -40,8 +40,8 @@ var apiController = function(app){
 									user : 'uprintoo@gmail.com',
 									pass : 'Printoomkt'
 								}*/
-								host : "smtpout.secureserver.net",
-								port : "3535 ",
+								host : "smtp-relay.gmail.com",
+								port : "25 ",
 								auth : {
 									user : "hola@printoo.me",
 									pass : "Printoomail"
