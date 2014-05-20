@@ -82,7 +82,7 @@ a.arrow-right{background-position:-180px;position:relative;z-index:3;margin-top:
 .registro-newlester form #txtMail{color:#868686;border-radius:10px;width:60%;height:30px;margin-right:10px}
 .registro-newlester form a.submit{width:85px;}
 .registro-newlester form a.submit img{width:85px}
-a.terminos{color:#000;font-size:14px;font-weight:bold;margin:0;padding:0;text-transform:uppercase;}
+a.terminos{color:#000;font-size:14px;font-weight:bold;margin:0;padding:0;text-transform:none;}
 a.terminos:first-child{margin-top:15px}
 a.terminos:hover{cursor:pointer;text-decoration:underline}
 .innomobs{color:#000;text-decoration:underline;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
