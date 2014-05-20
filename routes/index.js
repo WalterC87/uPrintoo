@@ -4,23 +4,23 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'uPrintoo | Fotografías y más' });
+  res.render('index', { title: 'Printoo | Manda a imprimir y recube en tu casa tus fotos. Sin pagar nada.' });
 };
 
 exports.privacidad = function(req,res){
-	res.render('privacidad', {title : 'uPrintoo | Terminos de Privacidad'});
+	res.render('privacidad', {title : 'Printoo | Terminos de Privacidad'});
 };
 
 exports.terminos_condiciones = function(req,res){
-	res.render('terminos_condiciones', {title : 'uPrintoo | Terminos de Privacidad'});
+	res.render('terminos_condiciones', {title : 'Printoo | Terminos de Privacidad'});
 };
 
 exports.registro_share = function(req,res){
-	res.render('success', {title : 'uPrintoo | Comparte y apoya'});
+	res.render('success', {title : 'Printoo | Comparte y apoya'});
 };
 
 exports.registro_existe = function(req,res){
-	res.render('existe', {title : 'uPrintoo | Ya eres parte de este nosotros'});
+	res.render('existe', {title : 'Printoo | Ya eres parte de este nosotros'});
 };
 
 /*exports.notfound = function(req,res){
