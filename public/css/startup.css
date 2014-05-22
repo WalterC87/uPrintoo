@@ -27,22 +27,27 @@ section.img-portada{width:100%;height:700px}
 .slide .info-portada,.slide .info-features,.slide .info-portada-ultima{background-color:rgba(134,237,79,0.5);color:#fff}
 .slide .info-portada,.slide .info-features{padding:130px 0 0 0;height:550px}
 .slide .info-portada-ultima{padding:100px 0 0 0;height:350px}
-.slide .info-features{padding:130px 0 100px 0;position:relative;height:600px;overflow:hidden;}
+.slide .info-features{padding:130px 0 100px 0;position:relative;height:775px;overflow:hidden;}
 .slide .info-features .section-feature{width:33.33%;display:inline-block;vertical-align:top}
 .texto-portada,.subtitulo-portada{font-family:'Exo';font-weight:600;line-height:135%;color:#fff}
 .texto-portada{font-size:45px;padding-bottom:10px;left:0;right:0;top:0;bottom:0;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto}
 .tiny{font-size:25px}
 .negrita{font-family:"Exo 2";font-style:"Black"}
-.feature{background-color:rgba(102,228,113,0.5);-webkit-border-radius:25px;-moz-border-radius:25px;-o-border-radius:25px;-ms-border-radius:25px;height:600px;width:35%;margin:0 auto;padding:0;}
-.feature .info p{font-family:'Ubuntu';font-size:25px;line-height:120%}
-.feature .info-li p{font-family:'Ubuntu';font-size:25px}
-.sub-principal{font-family:'Ubuntu';font-weigth:bold;line-height:125%;font-size:65px;color:#fff}
+.feature{background-color:transparent;-webkit-border-radius:25px;-moz-border-radius:25px;-o-border-radius:25px;-ms-border-radius:25px;height:600px;width:35%;margin:0 auto;padding:0;}
+.feature .info p{font-family:'Ubuntu';font-size:20px;line-height:120%}
+.funciona{width:50%;margin:0 auto;padding:0;text-align:center;color:#fff}
+.half{background-image:url("/img/half-logo.png");background-repeat:no-repeat;float:left;position:relative;width:150px;height:250px;z-index:1}
+.titleh{font-family:'Exo 2';font-weight:800;font-size:46px;color:#fff}
+.sub{font-family:'Exo 2';font-weight:600;font-size:25px;color:#fff}
+.texto{font-family:'Ubuntu';font-size:18px;color:#fff}
+.sub-principal{font-family:'Ubuntu';font-weight:bold;line-height:125%;font-size:65px;color:#fff}
 .sub-texto{font-size:35px}
-.title-feature{color:#0031a2;font-family:'Exo';font-weigth:bold;font-size:50px;line-height:110%}
-.tag,.gift,.guest{background-image:url("/img/iconos/tag_gift.png");background-size:300%;background-repeat:no-repeat;margin-top:5%;margin-bottom:4%;margin-left:37%;width:125px;height:125px}
+.title-feature{color:#fff;font-family:'Exo';font-weigth:bold;font-size:40px}
+.tag,.gift,.guest{background-image:url("/img/iconos/como_funciona.png");background-size:300%;background-repeat:no-repeat;margin-top:5%;margin-bottom:4%;margin-left:37%;position:relative;top:18%;left:-18%;width:125px;height:125px}
+.contenedor{background-color:#fff;border-radius:200px;width:55%;margin:0 auto;padding:0;height:200px}
 .tag:hover,.gift:hover,.guest:hover{cursor:pointer;-webkit-animation:ringing 4s 7 ease .3s;-moz-animation:ringing 4s 7 ease .3s;-o-animation:ringing 4s 7 ease .3s;-ms-animation:ringing 4s 7 ease .3s}
 .tag{background-position:0 0}
-.gift{background-position:-125px 0}
+.gift{background-position:-125px 0;top:23%}
 .guest{background-position:-250px 0}
 .facebook,.twitter,.instagram,.facebook-success:hover,.twitter-success:hover{background-image:url("/img/iconos/networks.png");background-size:300%;background-repeat:no-repeat;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
 .arrow-down,.arrow-up,.arrow-left,.arrow-right{background-image:url("/img/iconos/arrows.png");background-size:400%;background-repeat:no-repeat;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;width:60px;height:60px;margin-top:8%;margin:0;position:relative;display:block}
@@ -80,6 +85,7 @@ a.arrow-right{background-position:-180px;position:relative;z-index:3;margin-top:
 .registro-newlester{margin-top:5px;padding-top:15px;}
 .registro-newlester form #txtMail,.registro-newlester form a.submit{vertical-align:top}
 .registro-newlester form #txtMail{color:#868686;border-radius:10px;width:60%;height:30px;margin-right:10px}
+.registro-newlester form button{border:none;background-color:transparent}
 .registro-newlester form a.submit{width:85px;}
 .registro-newlester form a.submit img{width:85px}
 a.terminos{color:#000;font-size:14px;font-weight:bold;margin:0;padding:0;text-transform:none;}

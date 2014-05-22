@@ -169,7 +169,7 @@ section.img-portada
 		padding 130px 0px 100px 0px
 		position relative
 		/*width 300%*/
-		height 600px
+		height 775px
 		overflow hidden
 
 		.section-feature
@@ -202,7 +202,7 @@ section.img-portada
 	font-style "Black"
 
 .feature
-	background-color bk-color-2
+	background-color transparent
 	-webkit-border-radius 25px
 	-moz-border-radius 25px
 	-o-border-radius 25px
@@ -216,17 +216,45 @@ section.img-portada
 		p
 			font-family 'Ubuntu'
 			/*font-style italic*/
-			font-size 25px
+			font-size 20px
 			line-height 120%
-	.info-li
-		p
-			font-family 'Ubuntu'
-			/*font-style italic*/
-			font-size 25px
+
+.funciona
+	width 50%
+	margin 0 auto
+	padding 0
+	text-align center
+	color #fff
+
+.half
+	background-image url('/img/half-logo.png')
+	background-repeat no-repeat
+	float left
+	position relative
+	width 150px
+	height 250px
+	z-index 1
+
+.titleh
+	font-family 'Exo 2'
+	font-weight 800
+	font-size 46px
+	color #fff
+
+.sub
+	font-family 'Exo 2'
+	font-weight 600
+	font-size 25px
+	color #fff
+
+.texto
+	font-family 'Ubuntu'
+	font-size 18px
+	color #fff
 
 .sub-principal
 	font-family 'Ubuntu'
-	font-weigth bold
+	font-weight bold
 	line-height 125%
 	font-size 65px
 	color #fff
@@ -234,21 +262,31 @@ section.img-portada
 	font-size 35px
 
 .title-feature
-	color subtitle
+	color #fff
 	font-family 'Exo'
 	font-weigth bold
-	font-size 50px
-	line-height 110%
+	font-size 40px
 
 .tag, .gift,.guest
-	background-image url('/img/iconos/tag_gift.png')
+	background-image url('/img/iconos/como_funciona.png')
 	background-size 300%
 	background-repeat no-repeat
 	margin-top 5%
 	margin-bottom 4%
 	margin-left 37%
+	position relative
+	top 18%
+	left -18%
 	width 125px
 	height 125px
+
+.contenedor
+	background-color #fff
+	border-radius 200px
+	width 55%
+	margin 0 auto
+	padding 0
+	height 200px
 
 .tag:hover, .gift:hover, .guest:hover
 	cursor pointer
@@ -262,6 +300,7 @@ section.img-portada
 
 .gift
 	background-position -125px 0
+	top 23%
 
 .guest
 	background-position -250px 0
@@ -426,6 +465,10 @@ a.arrow-right
 			width 60%
 			height 30px
 			margin-right 10px
+
+		button
+			border none
+			background-color transparent
 
 		a.submit
 			width 85px
