@@ -461,7 +461,6 @@ a.arrow-right
 
 		#txtMail
 			color #868686
-			border-radius 10px
 			width 60%
 			height 30px
 			margin-right 10px
@@ -469,6 +468,16 @@ a.arrow-right
 		button
 			border none
 			background-color transparent
+			height 40px
+
+			img
+				width 135px
+
+			&:hover
+				border none
+			&:active, &:focus
+				border none
+				outline 0
 
 		a.submit
 			width 85px
@@ -479,10 +488,10 @@ a.arrow-right
 a.terminos
 	color #000
 	font-size 14px
-	font-weight bold
 	margin 0
 	padding 0
 	text-transform none
+	font-weight 700
 
 	&:first-child
 		margin-top 15px

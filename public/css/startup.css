@@ -84,11 +84,14 @@ a.arrow-right{background-position:-180px;position:relative;z-index:3;margin-top:
 .italic-portada{color:#fff;font-family:'Exo 2';font-style:italic;font-weight:500;line-height:110%;font-size:30px}
 .registro-newlester{margin-top:5px;padding-top:15px;}
 .registro-newlester form #txtMail,.registro-newlester form a.submit{vertical-align:top}
-.registro-newlester form #txtMail{color:#868686;border-radius:10px;width:60%;height:30px;margin-right:10px}
-.registro-newlester form button{border:none;background-color:transparent}
+.registro-newlester form #txtMail{color:#868686;width:60%;height:30px;margin-right:10px}
+.registro-newlester form button{border:none;background-color:transparent;height:40px;}
+.registro-newlester form button img{width:135px}
+.registro-newlester form button:hover{border:none}
+.registro-newlester form button:active,.registro-newlester form button:focus{border:none;outline:0}
 .registro-newlester form a.submit{width:85px;}
 .registro-newlester form a.submit img{width:85px}
-a.terminos{color:#000;font-size:14px;font-weight:bold;margin:0;padding:0;text-transform:none;}
+a.terminos{color:#000;font-size:14px;margin:0;padding:0;text-transform:none;font-weight:700;}
 a.terminos:first-child{margin-top:15px}
 a.terminos:hover{cursor:pointer;text-decoration:underline}
 .innomobs{color:#000;text-decoration:underline;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
