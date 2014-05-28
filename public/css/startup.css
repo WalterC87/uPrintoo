@@ -1,4 +1,4 @@
-html{background-color:rgba(134,237,79,0.5)}
+html{background-color:#fff}
 body{background-color:transparent}
 header figure,header nav{display:inline-block;vertical-align:middle;height:100%}
 header figure{background-color:#ecf0f1;width:25%}
@@ -7,7 +7,7 @@ header nav ul{height:100%;-moz-transition:all .3s ease-in-out;-o-transition:all 
 header nav ul li{display:inline-block;height:100%;margin-left:10px;margin-right:15px;padding:20px;vertical-align:top;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
 header nav ul li a{color:#fff;font-size:18px;font-family:'Montserrat','Arial'}
 header nav ul li a:hover{color:#fff;text-decoration:none}
-header nav ul li:hover{background-color:rgba(134,237,79,0.5);cursor:pointer;-webkit-transition:all .3s ease-in-out}
+header nav ul li:hover{background-color:rgba(188,249,149,0.6);cursor:pointer;-webkit-transition:all .3s ease-in-out}
 .fixed{width:100%;position:fixed;top:0;left:1px;z-index:9999}
 section.img-portada{width:100%;height:700px}
 #portada section.img-portada{background:url("/img/portadas/portada.jpg") center 0 no-repeat fixed;background-size:cover}
@@ -24,7 +24,7 @@ section.img-portada{width:100%;height:700px}
 .hashtag{color:#fff;font-family:font-family 'Exo 2';font-size:50px;font-weight:500,bold;line-height:120%}
 .texto-principal{color:#fff;font-family:'Exo 2';font-style:'Semi Bold';font-size:40px;line-height:120%}
 .texto-principal-sucess{color:#fff;font-family:'Ubuntu';font-size:35px;line-height:120%}
-.slide .info-portada,.slide .info-features,.slide .info-portada-ultima{background-color:rgba(134,237,79,0.5);color:#fff}
+.slide .info-portada,.slide .info-features,.slide .info-portada-ultima{background-color:rgba(188,249,149,0.6);color:#fff}
 .slide .info-portada,.slide .info-features{padding:130px 0 0 0;height:550px}
 .slide .info-portada-ultima{padding:100px 0 0 0;height:350px}
 .slide .info-features{padding:60px 0 100px 0;position:relative;height:600px;overflow:hidden;background-image:url("/img/iconos/como_funciona/Mitad.png");background-repeat:no-repeat;background-position:0 50px;background-size:25%;}
@@ -33,17 +33,17 @@ section.img-portada{width:100%;height:700px}
 .texto-portada{font-size:45px;padding-bottom:10px;left:0;right:0;top:0;bottom:0;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto}
 .tiny{font-size:25px}
 .negrita{font-family:"Exo 2";font-style:"Black"}
-.feature{background-color:transparent;-webkit-border-radius:25px;-moz-border-radius:25px;-o-border-radius:25px;-ms-border-radius:25px;height:600px;width:35%;margin:0 auto;padding:0;}
-.feature .info p{font-family:'Ubuntu';font-size:20px;line-height:120%;margin-top:-25px}
+.feature{background-color:transparent;-webkit-border-radius:25px;-moz-border-radius:25px;-o-border-radius:25px;-ms-border-radius:25px;height:600px;width:35%;margin:0 auto;padding:0;margin-top:-10px;}
+.feature .info p{font-family:'Ubuntu';font-size:20px;line-height:120%;margin-top:-35px}
 .funciona{width:50%;margin:0 auto;padding:0;text-align:center;color:#fff}
 .half{background-image:url("/img/half-logo.png");background-repeat:no-repeat;float:left;position:relative;width:150px;height:250px;z-index:1}
 .titleh{font-family:'Exo 2';font-weight:800;font-size:46px;color:#fff}
-.sub{font-family:'Exo 2';font-weight:600;font-size:25px;color:#a7a9ac}
-.texto{font-family:'Ubuntu';font-size:18px;color:#a7a9ac}
+.sub{font-family:'Exo 2';font-weight:600;font-size:22px;color:#a7a9ac}
+.texto{font-family:'Ubuntu';font-size:16px;color:#a7a9ac}
 .sub-principal{font-family:'Ubuntu';font-weight:bold;line-height:125%;font-size:65px;color:#fff}
 .sub-info{font-weight:bold;color:#a7a9ac}
 .sub-texto{font-size:35px}
-.title-feature{color:#fff;font-family:'Exo';font-weigth:bold;font-size:35px;margin-top:-15px}
+.title-feature{color:#fff;font-family:'Exo';font-weigth:bold;font-size:35px;margin-top:-23px}
 .titulo1{color:#e66100}
 .titulo2{color:#b028ea}
 .titulo3{color:#fbd306}

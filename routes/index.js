@@ -4,7 +4,7 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Printoo | Manda a imprimir y recube en tu casa tus fotos. Sin pagar nada.' });
+  res.render('index', { title: 'Printoo | Manda a imprimir y recibe en tu casa tus fotos. Sin pagar nada.' });
 };
 
 exports.privacidad = function(req,res){
