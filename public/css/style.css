@@ -1,8 +1,38 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@font-face {
+	font-family: 'icomoon';
+	src:url('/fonts/icomoon.eot?5i26lq');
+	src:url('/fonts/icomoon.eot?#iefix5i26lq') format('embedded-opentype'),
+		url('/fonts/icomoon.woff?5i26lq') format('woff'),
+		url('/fonts/icomoon.ttf?5i26lq') format('truetype'),
+		url('/fonts/icomoon.svg?5i26lq#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-a {
-  color: #00B7FF;
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;jajajaa
+	
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-flecha:before {
+	content: "\e603";
+}
+.icon-connection:before {
+	content: "\e600";
+}
+.icon-podcast:before {
+	content: "\e601";
+}
+.icon-feed:before {
+	content: "\e602";
 }

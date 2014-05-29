@@ -89,7 +89,7 @@ block content
 	section#div-7.slide
 		section.info-features
 			div.container
-				div.row-fluid(style='margin-top: -5px;')
+				div.row-fluid(style='margin-top: -3px;')
 					div.span12.center(style='margin-left:30px; margin-top:-60px')
 						//--a.offset5.arrow-up(href='#div-6')
 					div.funciona
@@ -137,7 +137,9 @@ block content
 							form.span12(method='POST', action='/registro/newlester', name='newlester_register_form')#newlester_register_form
 								input#txtMail(type='email',name='txtMail', placeholder='Mi email es...' required='required')
 								button.registrar(type='submit', id='btnLoginNewlester')
-									img(src='img/iconos/btn_enviar.png')
+									span.icon-flecha
+									| &nbsp;&nbsp;&nbsp;&nbsp;Enviar
+									//img(src='img/iconos/btn_enviar.png')
 								//--a.submit.registrar(href="#")
 									img(src='/img/iconos/btn_enviar.png')
 

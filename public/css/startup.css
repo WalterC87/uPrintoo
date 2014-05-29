@@ -7,7 +7,7 @@ header nav ul{height:100%;-moz-transition:all .3s ease-in-out;-o-transition:all 
 header nav ul li{display:inline-block;height:100%;margin-left:10px;margin-right:15px;padding:20px;vertical-align:top;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
 header nav ul li a{color:#fff;font-size:18px;font-family:'Montserrat','Arial'}
 header nav ul li a:hover{color:#fff;text-decoration:none}
-header nav ul li:hover{background-color:rgba(188,249,149,0.6);cursor:pointer;-webkit-transition:all .3s ease-in-out}
+header nav ul li:hover{background-color:#a0f41c;cursor:pointer;-webkit-transition:all .3s ease-in-out}
 .fixed{width:100%;position:fixed;top:0;left:1px;z-index:9999}
 section.img-portada{width:100%;height:700px}
 #portada section.img-portada{background:url("/img/portadas/portada.jpg") center 0 no-repeat fixed;background-size:cover}
@@ -24,7 +24,7 @@ section.img-portada{width:100%;height:700px}
 .hashtag{color:#fff;font-family:font-family 'Exo 2';font-size:50px;font-weight:500,bold;line-height:120%}
 .texto-principal{color:#fff;font-family:'Exo 2';font-style:'Semi Bold';font-size:40px;line-height:120%}
 .texto-principal-sucess{color:#fff;font-family:'Ubuntu';font-size:35px;line-height:120%}
-.slide .info-portada,.slide .info-features,.slide .info-portada-ultima{background-color:rgba(188,249,149,0.6);color:#fff}
+.slide .info-portada,.slide .info-features,.slide .info-portada-ultima{background-color:#a0f41c;color:#fff}
 .slide .info-portada,.slide .info-features{padding:130px 0 0 0;height:550px}
 .slide .info-portada-ultima{padding:100px 0 0 0;height:350px}
 .slide .info-features{padding:60px 0 100px 0;position:relative;height:600px;overflow:hidden;background-image:url("/img/iconos/como_funciona/Mitad.png");background-repeat:no-repeat;background-position:0 50px;background-size:25%;}
@@ -89,7 +89,7 @@ a.arrow-right{background-position:-180px;position:relative;z-index:3;margin-top:
 .registro-newlester{margin-top:5px;padding-top:15px;}
 .registro-newlester form #txtMail,.registro-newlester form a.submit{vertical-align:top}
 .registro-newlester form #txtMail{color:#868686;width:60%;height:25px;margin-right:10px;margin-top:2px}
-.registro-newlester form button{border:none;background-color:transparent;height:40px;}
+.registro-newlester form button{border:none;background-color:#fff;color:#a0f41c;height:33px;margin-top:3px;font-family:'Ubuntu';}
 .registro-newlester form button img{width:135px}
 .registro-newlester form button:hover{border:none}
 .registro-newlester form button:active,.registro-newlester form button:focus{border:none;outline:0}
