@@ -1325,7 +1325,22 @@
   font-size: 12px;
   list-style: none;
 }
-#navigation #main-menu li {
+
+#navigation #main-menu-index{
+  display: inline-block;
+  float: right;
+  margin: 0 auto;
+  padding: 0px;
+  margin-top: -33px;
+  position: relative;
+  text-align: center;
+  line-height: 18px;
+  font-size: 12px;
+  list-style: none;
+}
+
+#navigation #main-menu li,
+#navigation #main-menu-index li {
   display: inline-block;
   vertical-align: middle;
   position: relative;
@@ -1336,12 +1351,14 @@
   line-height: 18px;
   list-style: none;
 }
-#navigation #main-menu p{
+#navigation #main-menu p,
+#navigation #main-menu-index p{
   font-size: 16px;
   font-weight: bold;
   margin-top: 15px;
 }
-#navigation #main-menu a {
+#navigation #main-menu a,
+#navigation #main-menu-index a {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: bold;
@@ -8375,6 +8392,7 @@ a.badge:focus {
     display: block;
     width: 100%;
   }
+
   #navigation #main-menu li {
     display: block;
   }

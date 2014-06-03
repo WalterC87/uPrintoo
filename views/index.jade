@@ -1,7 +1,31 @@
 extends layout
 
 block content
-	include menu
+	nav#navigation.fixed-top
+		div.container
+			div.row-fluid
+				div.span12.center
+					a.brand.pull-left(href='/')
+						img(src='/img/uPrintoologo.png', alt='Printoo', width='175px')
+					div.mobile-menu(data-toggle='collapse',data-target='.nav-collapse')
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+
+					div(style='position: relative;z-index: 2;width: 75%;margin-top: 10px;')
+						a.top-link(href='#div-8', style="color: #666666;font-size: 14px;text-transform: uppercase;text-decoration: underline;") Quiero ser parte de la Versión Beta
+					
+					ul#main-menu-index.nav-collapse.collapse.pull-right
+						li
+							p COMPARTE
+						li
+							a.facebook-share(href='https://www.facebook.com/pages/Printoo/1475470072669968', target="_blank")
+
+						li
+							a.twitter-share(href='https://twitter.com/printoome', target="_blank")
+
+						li
+							a.instagram-share(href='http://instagram.com/printoo.me ', target="_blank")
 	
 	section#portada.slide
 		section.img-portada
@@ -114,7 +138,7 @@ block content
 								div.guest
 							h2.center.title-feature <span class="titulo3">	3 - Recíbelas</span>
 							div.info.span12.center
-								p <span class='sub-info'>Ponte cómodo</span><br>Imprimimos tus fotos y<br>te las enviamos por<br>paquetería<br>hasta tu casa o si lo<br>prefieres mándalas<br>como regalo<br>a otro domicilio.
+								p <span class='sub-info'>Ponte cómodo</span><br>Imprimimos tus fotos y<br>te las enviamos por<br>paquetería.
 
 					div.span12.center(style='margin-top:-242px;')
 						a.arrow-down.offset5(href='#div-8')
@@ -137,9 +161,9 @@ block content
 							form.span12(method='POST', action='/registro/newlester', name='newlester_register_form')#newlester_register_form
 								input#txtMail(type='email',name='txtMail', placeholder='Mi email es...' required='required')
 								button.registrar(type='submit', id='btnLoginNewlester')
-									span.icon-flecha
-									| &nbsp;&nbsp;&nbsp;&nbsp;Enviar
-									//img(src='img/iconos/btn_enviar.png')
+									span.icon-flecha(style='vertical-align: top;')
+									| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar
+									//--img(src='img/iconos/btn_enviar.png')
 								//--a.submit.registrar(href="#")
 									img(src='/img/iconos/btn_enviar.png')
 
