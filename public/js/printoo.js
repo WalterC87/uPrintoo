@@ -36,5 +36,9 @@ $(document).ready(function(){
         triggerOnce: true
     });
 
+    $('#pull-menu').on('click', function(e){
+        e.preventDefault();
+        $('#menu-responsive').slideToggle();
+    })
 
 });

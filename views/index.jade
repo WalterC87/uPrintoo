@@ -3,10 +3,23 @@ extends layout
 block content
 	nav.fixed-top
 		div.navegacion
+
 			div.brand
 				a(href='/')
 					img(src='/img/uPrintoologo.png', alt='Printoo')
-			
+
+			div#pull
+				img#pull-menu(src="/img/icon-menu.png" alt="" title="")
+
+			div#menu-responsive
+				ul
+					li
+						a.top-link(href='#div-8', style="color: #666666;font-size: 14px;text-transform: uppercase;text-decoration: underline;") Quiero ser parte de la Versión Beta
+					li
+						a.facebook-share(href='https://www.facebook.com/pages/Printoo/1475470072669968', target="_blank") tw
+						a.twitter-share(href='https://twitter.com/printoome', target="_blank") tw
+						a.instagram-share(href='http://instagram.com/printoo.me ', target="_blank") tw
+
 			div.text-header
 				a.top-link(href='#div-8', style="color: #666666;font-size: 14px;text-transform: uppercase;text-decoration: underline;") Quiero ser parte de la Versión Beta
 

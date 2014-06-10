@@ -3,6 +3,8 @@ body{background-color:#ffa300}
 figure,nav{display:inline-block;vertical-align:middle;height:100%}
 nav{background-color:#fff;width:100%;height:63px;}
 nav .navegacion{width:95%;margin:0 auto;padding:0;height:60px;}
+nav .navegacion div#pull{display:none}
+nav .navegacion div#menu-responsive{display:none}
 nav .navegacion div.brand,nav .navegacion div.text-header,nav .navegacion div.social-menu{display:inline-block;vertical-align:middle}
 nav .navegacion img{width:100%}
 nav .navegacion div.brand{width:20%}
@@ -113,20 +115,32 @@ a.terminos:hover{cursor:pointer;text-decoration:underline}
 .terminos-privacidad article ul li p{font-family:"Exo 2";font-size:19px;text-align:justify}
 .terminos-privacidad article ul li.list-terminos{font-family:"Exo 2";font-size:19px;padding-top:3px;padding-bottom:3px;text-align:justify}
 @media only screen and (min-width: 768px) and (max-width:959px){body{margin:0;padding:0}
-nav{height:175px;}
-nav .navegacion{width:100%;height:150px;}
-nav .navegacion img{width:35%}
-nav .navegacion div.brand,nav .navegacion div.text-header,nav .navegacion div.social-menu{width:100%}
-nav .navegacion div.brand{text-align:center}
-nav .navegacion div.text-header{padding-top:10px;padding-bottom:10px;background-color:#9df41c}
-nav .navegacion div.social-menu{text-align:center;margin-top:-10px;}
-nav .navegacion div.social-menu ul li:first-child{display:none}
+nav{height:75px;}
+nav .navegacion{width:100%;height:75px;}
+nav .navegacion img{width:95%}
+nav .navegacion div.brand,nav .navegacion div#pull{display:inline-block;vertical-align:middle}
+nav .navegacion div.brand{text-align:center;width:40%}
+nav .navegacion div#pull{width:50%;text-align:right;cursor:pointer;}
+nav .navegacion div#pull img{width:35px}
+nav .navegacion div#menu-responsive{width:100%;background-color:#fff;}
+nav .navegacion div#menu-responsive ul{list-style:none;}
+nav .navegacion div#menu-responsive ul li{padding-top:25px}
+nav .navegacion div.text-header{display:none;}
+nav .navegacion div.social-menu{display:none;}
 .facebook-share,.twitter-share,.instagram-share{font-size:40px}
-.twitter-share{background-position:-47px 0;}
-.twitter-share:hover{background-position:-47px 0}
-.instagram-share{background-position:-94px 0;}
-.instagram-share:hover{background-position:-94px 0}
+.twitter-share{background-position:-45px 0;}
+.twitter-share:hover{background-position:-45px 0}
+.instagram-share{background-position:-90px 0;}
+.instagram-share:hover{background-position:-90px 0}
 .centrada{width:90%}
+section.img-portada{width:100%;height:650px}
+#portada section.img-portada{background:url("/img/portadas/responsive/portada_959.jpg") center 0 no-repeat fixed;background-size:cover}
+#div-2 section.img-portada{background:url("/img/portadas/responsive/skater_959.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-3 section.img-portada{background:url("/img/portadas/responsive/ban_959.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-4 section.img-portada{background:url("/img/portadas/responsive/celular_959.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-5 section.img-portada{background:url("/img/portadas/responsive/parejaparaguas_959.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-6 section.img-portada{background:url("/img/portadas/responsive/papahijo_959.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-7 section.img-portada{background:url("/img/portadas/responsive/perrito_959.jpg") 50% 0 no-repeat fixed;background-size:cover}
 #portada .centrada{padding:0;}
 #portada .centrada .center .godown{margin-top:-35px}
 .texto-principal{padding-top:35px;font-size:35px;line-height:110%}
@@ -152,30 +166,42 @@ nav .navegacion div.social-menu ul li:first-child{display:none}
 #contact .container article div.row-fluid div.offset1 div.span12 p.correo{margin-bottom:25px;margin-top:10px;margin-left:0;background-color:#9df41c;color:#000;padding-top:10px}
 #contact .container article div.row-fluid div.offset1 h5{display:none}
 }@media only screen and (min-width: 480px) and (max-width:767px){body{margin:0;padding:0}
-nav{height:178px;}
-nav .navegacion{width:100%;height:100px;}
-nav .navegacion img{width:55%}
-nav .navegacion div.brand,nav .navegacion div.text-header,nav .navegacion div.social-menu{width:100%}
-nav .navegacion div.brand{text-align:center}
-nav .navegacion div.text-header{padding-top:10px;padding-bottom:10px;background-color:#9df41c}
-nav .navegacion div.social-menu{text-align:center;}
-nav .navegacion div.social-menu ul li:first-child{display:none}
+nav{height:75px;}
+nav .navegacion{width:100%;height:75px;}
+nav .navegacion img{width:100%}
+nav .navegacion div.brand,nav .navegacion div#pull{display:inline-block;vertical-align:middle}
+nav .navegacion div.brand{text-align:center;width:40%}
+nav .navegacion div#pull{width:50%;text-align:right;cursor:pointer;}
+nav .navegacion div#pull img{width:35px}
+nav .navegacion div#menu-responsive{width:100%;background-color:#fff;}
+nav .navegacion div#menu-responsive ul{list-style:none;}
+nav .navegacion div#menu-responsive ul li{padding-top:25px}
+nav .navegacion div.text-header{display:none}
+nav .navegacion div.social-menu{display:none}
 .facebook-share,.twitter-share,.instagram-share{font-size:40px}
-.twitter-share{background-position:-47px 0;}
-.twitter-share:hover{background-position:-47px 0}
-.instagram-share{background-position:-94px 0;}
-.instagram-share:hover{background-position:-94px 0}
-.centrada{width:100%;left:-35px}
+.twitter-share{background-position:-45px 0;}
+.twitter-share:hover{background-position:-45px 0}
+.instagram-share{background-position:-90px 0;}
+.instagram-share:hover{background-position:-90px 0}
+.centrada{width:100%;left:-15px}
+section.img-portada{width:100%;height:630px}
+#portada section.img-portada{background:url("/img/portadas/responsive/portada_767.jpg") center 0 no-repeat fixed;background-size:cover}
+#div-2 section.img-portada{background:url("/img/portadas/responsive/skater_767.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-3 section.img-portada{background:url("/img/portadas/responsive/ban_767.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-4 section.img-portada{background:url("/img/portadas/responsive/celular_767.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-5 section.img-portada{background:url("/img/portadas/responsive/parejaparaguas_767.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-6 section.img-portada{background:url("/img/portadas/responsive/papahijo_767.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-7 section.img-portada{background:url("/img/portadas/responsive/perrito_767.jpg") 50% 0 no-repeat fixed;background-size:cover}
 #portada .centrada{padding:0;}
-#portada .centrada .center .godown{margin:0 auto;padding:0;width:10%;margin-top:-135px;}
+#portada .centrada .center .godown{margin:0 auto;padding:0;width:60px;margin-top:-135px;}
 #portada .centrada .center .godown a.arrow-down{width:100%}
 .texto-principal{padding-top:35px;font-size:30px;line-height:110%}
 .sub-principal{line-height:115%;font-size:60px}
 .texto-portada{font-size:28px;left:0;right:0;top:0;bottom:0;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto}
 .slide .info-features{height:1350px;}
-.slide .info-features div.container div.row-fluid div.center a.arrow-down{margin:0 auto;padding:0;width:10%;margin-top:50%}
+.slide .info-features div.container div.row-fluid div.center a.arrow-down{margin:0 auto;padding:0;width:60px;margin-top:45%}
 .slide .info-portada-ultima div.container div.center h3.texto-portada{font-size:20px}
-.arrow-down{margin:0 auto;padding:0;width:10%;margin-top:-5px}
+.arrow-down{margin:0 auto;padding:0;width:60px;margin-top:-5px}
 .funciona{width:80%}
 .feature{background-color:transparent;-webkit-border-radius:25px;-moz-border-radius:25px;-o-border-radius:25px;-ms-border-radius:25px;height:420px;width:100%;margin:0 auto;padding:0;margin-top:-10px;}
 .feature .info{padding-top:34px;}
@@ -183,7 +209,7 @@ nav .navegacion div.social-menu ul li:first-child{display:none}
 .tag,.gift,.guest{width:110px;top:12%;left:-12%}
 .gift{background-position:-110px 0}
 .guest{background-position:-220px 0}
-.contenedor{width:33%;height:220px;margin:0 auto;padding:0;margin-top:10%}
+.contenedor{width:170px;height:220px;margin:0 auto;padding:0;margin-top:10%}
 .newlester{margin-left:0}
 #contact .container article div.row-fluid div.span3{margin-bottom:10px;}
 #contact .container article div.row-fluid div.span3 a.terminos{text-align:center;text-decoration:underline}
@@ -192,27 +218,39 @@ nav .navegacion div.social-menu ul li:first-child{display:none}
 #contact .container article div.row-fluid div.offset1 div.span12 p.correo{margin-bottom:25px;margin-top:10px;background-color:#9df41c;color:#000;padding-top:10px}
 #contact .container article div.row-fluid div.offset1 h5{display:none}
 }@media only screen and (min-width: 320px) and (max-width:479px){body{margin:0;padding:0}
-nav{height:160px;}
-nav .navegacion{width:100%;height:100px;}
-nav .navegacion img{width:55%}
-nav .navegacion div.brand,nav .navegacion div.text-header,nav .navegacion div.social-menu{width:100%}
-nav .navegacion div.brand{text-align:center}
-nav .navegacion div.text-header{padding-top:10px;padding-bottom:10px;background-color:#9df41c}
-nav .navegacion div.social-menu{text-align:center;}
-nav .navegacion div.social-menu ul li:first-child{display:none}
+nav{height:65px;}
+nav .navegacion{width:100%;height:65px;}
+nav .navegacion img{width:100%}
+nav .navegacion div.brand,nav .navegacion div#pull{display:inline-block;vertical-align:bottom}
+nav .navegacion div.brand{text-align:center;width:40%}
+nav .navegacion div#pull{width:50%;text-align:right;cursor:pointer;}
+nav .navegacion div#pull img{width:35px}
+nav .navegacion div#menu-responsive{width:100%;background-color:#fff;}
+nav .navegacion div#menu-responsive ul{list-style:none;}
+nav .navegacion div#menu-responsive ul li{padding-top:25px}
+nav .navegacion div.text-header{display:none}
+nav .navegacion div.social-menu{display:none}
 .facebook-share,.twitter-share,.instagram-share{font-size:40px}
-.twitter-share{background-position:-47px 0;}
-.twitter-share:hover{background-position:-47px 0}
-.instagram-share{background-position:-94px 0;}
-.instagram-share:hover{background-position:-94px 0}
-.centrada{width:100%;left:-50px;padding:0}
+.twitter-share{background-position:-45px 0;}
+.twitter-share:hover{background-position:-45px 0}
+.instagram-share{background-position:-90px 0;}
+.instagram-share:hover{background-position:-90px 0}
+.centrada{width:100%;left:-5px;padding:0}
+section.img-portada{width:100%;height:620px}
+#portada section.img-portada{background:url("/img/portadas/responsive/portada_479.jpg") center 0 no-repeat fixed;background-size:cover}
+#div-2 section.img-portada{background:url("/img/portadas/responsive/skater_479.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-3 section.img-portada{background:url("/img/portadas/responsive/ban_479.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-4 section.img-portada{background:url("/img/portadas/responsive/celular_479.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-5 section.img-portada{background:url("/img/portadas/responsive/parejaparaguas_479.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-6 section.img-portada{background:url("/img/portadas/responsive/papahijo_479.jpg") 50% 0 no-repeat fixed;background-size:cover}
+#div-7 section.img-portada{background:url("/img/portadas/responsive/perrito_479.jpg") 50% 0 no-repeat fixed;background-size:cover}
 #portada .centrada .center .godown{margin:0 auto;padding:0;width:10%;margin-top:-160px;}
 #portada .centrada .center .godown a.arrow-down{width:100%}
-.texto-principal{padding-top:35px;font-size:35px;line-height:110%}
+.texto-principal{padding-top:35px;font-size:30px;line-height:110%}
 .sub-principal{line-height:115%;font-size:50px}
 .texto-portada{font-size:19px;left:0;right:0;top:0;bottom:0;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto}
 .slide .info-features{height:1350px;}
-.slide .info-features div.container div.row-fluid div.center a.arrow-down{margin:0 auto;padding:0;width:10%;margin-top:60%}
+.slide .info-features div.container div.row-fluid div.center a.arrow-down{margin:0 auto;padding:0;width:10%;margin-top:50%}
 .slide .info-portada-ultima div.container div.center h3.texto-portada{font-size:18px}
 .arrow-down{margin:0 auto;padding:0;width:10%;margin-top:-5px}
 .funciona{width:80%}
@@ -222,7 +260,7 @@ nav .navegacion div.social-menu ul li:first-child{display:none}
 .tag,.gift,.guest{width:100px;top:10%;left:-12%}
 .gift{background-position:-100px 0}
 .guest{background-position:-200px 0}
-.contenedor{width:40%;height:220px;margin:0 auto;padding:0;margin-top:10%}
+.contenedor{width:150px;height:220px;margin:0 auto;padding:0;margin-top:10%}
 .newlester{margin-left:0}
 #contact .container article div.row-fluid div.span3{margin-bottom:10px;}
 #contact .container article div.row-fluid div.span3 a.terminos{text-align:center;text-decoration:underline}
