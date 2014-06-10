@@ -1,14 +1,16 @@
 html{background-color:#ffa300}
 body{background-color:#ffa300}
-header figure,header nav{display:inline-block;vertical-align:middle;height:100%}
-header figure{background-color:#ecf0f1;width:25%}
-header nav{margin-left:15px;width:70%;}
-header nav a.top-link{color:#666}
-font-size 14px ul,text-transform uppercase ul,text-decoration underline ul{height:100%;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
-font-size 14px ul li,text-transform uppercase ul li,text-decoration underline ul li{display:inline-block;height:100%;margin-left:10px;margin-right:15px;padding:20px;vertical-align:top;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
-font-size 14px ul li a,text-transform uppercase ul li a,text-decoration underline ul li a{color:#fff;font-size:18px;font-family:'Montserrat','Arial'}
-font-size 14px ul li a:hover,text-transform uppercase ul li a:hover,text-decoration underline ul li a:hover{color:#fff;text-decoration:none}
-font-size 14px ul li:hover,text-transform uppercase ul li:hover,text-decoration underline ul li:hover{background-color:#ffa300;cursor:pointer;-webkit-transition:all .3s ease-in-out}
+figure,nav{display:inline-block;vertical-align:middle;height:100%}
+nav{background-color:#fff;width:100%;height:63px;}
+nav .navegacion{width:95%;margin:0 auto;padding:0;height:60px;}
+nav .navegacion div.brand,nav .navegacion div.text-header,nav .navegacion div.social-menu{display:inline-block;vertical-align:middle}
+nav .navegacion img{width:100%}
+nav .navegacion div.brand{width:20%}
+nav .navegacion div.text-header{width:50%;text-align:center;}
+nav .navegacion div.text-header a.top-link{color:#666;font-size:14px;text-transform:uppercase;text-decoration:underline}
+nav .navegacion div.social-menu{width:25%;}
+nav .navegacion div.social-menu ul{list-style:none;margin-top:5%;}
+nav .navegacion div.social-menu ul li{display:inline-block;vertical-align:bottom}
 .fixed{width:100%;position:fixed;top:0;left:1px;z-index:9999}
 section.img-portada{width:100%;height:700px}
 #portada section.img-portada{background:url("/img/portadas/portada.jpg") center 0 no-repeat fixed;background-size:cover}
@@ -34,7 +36,7 @@ section.img-portada{width:100%;height:700px}
 .texto-portada{font-size:45px;padding-bottom:10px;left:0;right:0;top:0;bottom:0;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto}
 .tiny{font-size:25px}
 .negrita{font-family:"Exo 2";font-style:"Black"}
-.feature{background-color:transparent;-webkit-border-radius:25px;-moz-border-radius:25px;-o-border-radius:25px;-ms-border-radius:25px;height:600px;width:35%;margin:0 auto;padding:0;margin-top:-10px;}
+.feature{background-color:transparent;height:600px;width:33.33%;margin:0 auto;padding:0;margin-top:-10px;display:inline-block;vertical-align:top;}
 .feature .info p{font-family:'Ubuntu';font-size:20px;line-height:120%;margin-top:-35px}
 .funciona{width:50%;margin:0 auto;padding:0;text-align:center;color:#fff}
 .half{background-image:url("/img/half-logo.png");background-repeat:no-repeat;float:left;position:relative;width:150px;height:250px;z-index:1}
@@ -49,7 +51,7 @@ section.img-portada{width:100%;height:700px}
 .titulo2{color:#b028ea}
 .titulo3{color:#3ff}
 .tag,.gift,.guest{background-image:url("/img/iconos/como_funciona.png");background-size:300%;background-repeat:no-repeat;margin-top:5%;margin-bottom:4%;margin-left:30%;position:relative;top:15%;left:-15%;width:135px;height:135px}
-.contenedor{background-image:url("/img/iconos/como_funciona/fondo.png");background-repeat:no-repeat;background-size:100%;width:55%;height:200px;margin:0 auto;padding:0;}
+.contenedor{background-image:url("/img/iconos/como_funciona/fondo.png");background-repeat:no-repeat;background-size:100%;width:55%;height:220px;margin:0 auto;padding:0;}
 .tag:hover,.gift:hover,.guest:hover{cursor:pointer;-webkit-animation:ringing 4s 7 ease .3s;-moz-animation:ringing 4s 7 ease .3s;-o-animation:ringing 4s 7 ease .3s;-ms-animation:ringing 4s 7 ease .3s}
 .tag{background-position:0 0}
 .gift{background-position:-135px 0;top:23%}
@@ -76,15 +78,14 @@ a.arrow-right{background-position:-180px;position:relative;z-index:3;margin-top:
 .twitter:hover{background-position:-35px 0}
 .instagram{background-position:-70px 0;}
 .instagram:hover{background-position:-70px 0}
-.facebook-share,.twitter-share,.instagram-share{background-image:url("/img/iconos/networks.png");background-size:300%;background-repeat:no-repeat;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
-.facebook-share:hover,.twitter-share:hover,.instagram-share:hover{background-image:url("/img/iconos/networks_hover.png");background-size:300%;background-repeat:no-repeat}
-.facebook-share,.twitter-share,.instagram-share{width:20px;height:30px}
+.facebook-share,.twitter-share,.instagram-share{background-image:url("/img/iconos/networks.png");background-size:300%;background-repeat:no-repeat;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;color:transparent;height:50px;font-size:28px;margin-left:15px}
+.facebook-share:hover,.twitter-share:hover,.instagram-share:hover{background-image:url("/img/iconos/networks_hover.png");background-size:300%;background-repeat:no-repeat;color:transparent}
 .facebook-share{background-position:0 0;}
 .facebook-share:hover{background-position:0 0}
-.twitter-share{background-position:-30px 0;}
-.twitter-share:hover{background-position:-30px 0}
-.instagram-share{background-position:-60px 0;}
-.instagram-share:hover{background-position:-60px 0}
+.twitter-share{background-position:-32px 0;}
+.twitter-share:hover{background-position:-32px 0}
+.instagram-share{background-position:-64px 0;}
+.instagram-share:hover{background-position:-64px 0}
 .newlester{background-color:transparent;border-radius:25px;margin-left:100px;margin-top:5px;}
 .italic-portada{color:#fff;font-family:'Exo 2';font-style:italic;font-weight:500;line-height:110%;font-size:30px}
 .registro-newlester{margin-top:5px;padding-top:15px;}
@@ -110,3 +111,81 @@ a.terminos:hover{cursor:pointer;text-decoration:underline}
 .terminos-privacidad .texto-terminos{font-size:19px;text-align:justify}
 .terminos-privacidad article ul li p{font-family:"Exo 2";font-size:19px;text-align:justify}
 .terminos-privacidad article ul li.list-terminos{font-family:"Exo 2";font-size:19px;padding-top:3px;padding-bottom:3px;text-align:justify}
+@media only screen and (min-width: 768px) and (max-width:959px){body{margin:0;padding:0}
+nav{height:175px;}
+nav .navegacion{width:100%;height:150px;}
+nav .navegacion img{width:35%}
+nav .navegacion div.brand,nav .navegacion div.text-header,nav .navegacion div.social-menu{width:100%}
+nav .navegacion div.brand{text-align:center}
+nav .navegacion div.text-header{padding-top:10px;padding-bottom:10px;background-color:#9df41c}
+nav .navegacion div.social-menu{text-align:center;margin-top:-10px;}
+nav .navegacion div.social-menu ul li:first-child{display:none}
+.facebook-share,.twitter-share,.instagram-share{font-size:45px}
+.twitter-share{background-position:-51px 0;}
+.twitter-share:hover{background-position:-51px 0}
+.instagram-share{background-position:-102px 0;}
+.instagram-share:hover{background-position:-102px 0}
+.centrada{width:90%}
+#portada .centrada .center .godown{margin-top:-35px}
+.texto-principal{padding-top:35px;font-size:35px;line-height:110%}
+.sub-principal{line-height:115%;font-size:60px}
+.texto-portada{font-size:35px;left:0;right:0;top:0;bottom:0;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto}
+.slide .info-features{height:1450px;}
+.slide .info-features div.container div.row-fluid div.center a.arrow-down{margin-top:39%}
+.slide .info-portada-ultima div.container div.center h3.texto-portada{font-size:27px}
+.funciona{width:80%}
+.feature{background-color:transparent;-webkit-border-radius:25px;-moz-border-radius:25px;-o-border-radius:25px;-ms-border-radius:25px;height:420px;width:100%;margin:0 auto;padding:0;margin-top:-10px;}
+.feature .info p{font-family:'Ubuntu';font-size:20px;line-height:120%;margin-top:-35px}
+.contenedor{width:30%;height:250px;margin:0 auto;padding:0;margin-top:10%}
+#contact .container article div.row-fluid div.termino,#contact .container article div.row-fluid div.email,#contact .container article div.row-fluid div.social{width:100%}
+#contact .container article div.row-fluid div.termino{margin:0;}
+#contact .container article div.row-fluid div.termino a.terminos{margin:0 auto;padding:0;margin-top:0;text-align:center;text-decoration:underline}
+#contact .container article div.row-fluid div.email{margin:0;}
+#contact .container article div.row-fluid div.email div.center{margin-top:-4px}
+#contact .container article div.row-fluid div.social{margin-left:0;margin-top:-20px}
+#contact .container article div.row-fluid div.derecho{margin:0 auto;padding:0;width:100%;text-align:center;}
+#contact .container article div.row-fluid div.derecho p{margin:0 auto;padding:0;width:100%}
+#contact .container article div.row-fluid div.offset1{margin-top:10px;margin-bottom:25px;}
+#contact .container article div.row-fluid div.offset1 div.span12 h6{display:none}
+#contact .container article div.row-fluid div.offset1 div.span12 p.correo{margin-bottom:25px;margin-top:10px;margin-left:0;background-color:#9df41c;color:#000;padding-top:10px}
+#contact .container article div.row-fluid div.offset1 h5{display:none}
+}@media only screen and (min-width: 480px) and (max-width:767px){body{margin:0;padding:0}
+nav{height:175px;}
+nav .navegacion{width:100%;height:100px;}
+nav .navegacion img{width:55%}
+nav .navegacion div.brand,nav .navegacion div.text-header,nav .navegacion div.social-menu{width:100%}
+nav .navegacion div.brand{text-align:center}
+nav .navegacion div.text-header{padding-top:10px;padding-bottom:10px;background-color:#9df41c}
+nav .navegacion div.social-menu{text-align:center;}
+nav .navegacion div.social-menu ul li:first-child{display:none}
+.facebook-share,.twitter-share,.instagram-share{font-size:45px}
+.twitter-share{background-position:-51px 0;}
+.twitter-share:hover{background-position:-51px 0}
+.instagram-share{background-position:-102px 0;}
+.instagram-share:hover{background-position:-102px 0}
+.centrada{width:100%;left:-50px}
+#portada .centrada .center .godown{margin:0 auto;padding:0;width:10%;margin-top:-135px;}
+#portada .centrada .center .godown a.arrow-down{width:100%}
+.texto-principal{padding-top:35px;font-size:35px;line-height:110%}
+.sub-principal{line-height:115%;font-size:60px}
+.texto-portada{font-size:28px;left:0;right:0;top:0;bottom:0;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto}
+.slide .info-features{height:1350px;}
+.slide .info-features div.container div.row-fluid div.center a.arrow-down{margin:0 auto;padding:0;width:10%;margin-top:50%}
+.slide .info-portada-ultima div.container div.center h3.texto-portada{font-size:20px}
+.arrow-down{margin:0 auto;padding:0;width:10%;margin-top:-5px}
+.funciona{width:80%}
+.feature{background-color:transparent;-webkit-border-radius:25px;-moz-border-radius:25px;-o-border-radius:25px;-ms-border-radius:25px;height:420px;width:100%;margin:0 auto;padding:0;margin-top:-10px;}
+.feature .info{padding-top:34px;}
+.feature .info p{font-family:'Ubuntu';font-size:20px;line-height:120%;margin-top:-35px}
+.tag,.gift,.guest{width:110px;top:12%;left:-12%}
+.gift{background-position:-110px 0}
+.guest{background-position:-220px 0}
+.contenedor{width:33%;height:220px;margin:0 auto;padding:0;margin-top:10%}
+.newlester{margin-left:0}
+#contact .container article div.row-fluid div.span3{margin-bottom:10px;}
+#contact .container article div.row-fluid div.span3 a.terminos{text-align:center;text-decoration:underline}
+#contact .container article div.row-fluid div.offset1{margin-top:10px;margin-bottom:25px;}
+#contact .container article div.row-fluid div.offset1 div.span12 h6{display:none}
+#contact .container article div.row-fluid div.offset1 div.span12 p.correo{margin-bottom:25px;margin-top:10px;background-color:#9df41c;color:#000;padding-top:10px}
+#contact .container article div.row-fluid div.offset1 h5{display:none}
+}

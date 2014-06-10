@@ -9,52 +9,53 @@ html
 	//--overflow hidden
 body
 	background-color bk-color
-header
-	figure, nav
-		display inline-block
-		vertical-align middle
-		height 100%
-	figure
-		background-color #ecf0f1
-		width 25%
-	nav
-		margin-left 15px
-		width 70%
 
-		a.top-link
-			color #666666
-    		font-size 14px
-    		text-transform uppercase
-    		text-decoration underline
-		ul
-			height 100%
-			li
-				display inline-block
-				height 100%
-				margin-left 10px
-				margin-right 15px
-				padding 20px
-				vertical-align top
-				-webkit-transition all .3s ease-in-out
-				-moz-transition all .3s ease-in-out
-				-o-transition all .3s ease-in-out
-				transition all .3s ease-in-out
+figure, nav
+	display inline-block
+	vertical-align middle
+	height 100%
 
-				a
-					color #fff
-					font-size 18px
-					font-family 'Montserrat', 'Arial'
-				a:hover
-					color #fff
-					text-decoration none
+nav
+	background-color #fff
+	width 100%
+	height 63px
 
-			li:hover
-				background-color bk-color
-				cursor pointer
-				-webkit-transition all .3s ease-in-out
-			    -moz-transition all .3s ease-in-out
-			    -o-transition all .3s ease-in-out
-			    transition all .3s ease-in-out
+	.navegacion
+		width 95%
+		margin 0 auto
+		padding 0
+		height 60px
+
+		div.brand, div.text-header, div.social-menu
+			display inline-block
+			vertical-align middle
+
+		img 
+			width 100%
+
+		div.brand
+			width 20%
+
+		div.text-header
+			width 50%
+			text-align center
+
+			a.top-link
+				color #666666
+				font-size 14px
+				text-transform uppercase
+				text-decoration underline
+
+		div.social-menu
+			width 25%
+
+			ul
+				list-style none
+				margin-top 5%
+				li
+					display inline-block
+					vertical-align bottom
+
 
 .fixed
 	width 100%
@@ -213,15 +214,13 @@ section.img-portada
 
 .feature
 	background-color transparent
-	-webkit-border-radius 25px
-	-moz-border-radius 25px
-	-o-border-radius 25px
-	-ms-border-radius 25px
 	height 600px
-	width 35%
+	width 33.33%
 	margin 0 auto
 	padding 0
 	margin-top -10px
+	display inline-block
+	vertical-align top
 
 	.info 
 		p
@@ -310,7 +309,7 @@ section.img-portada
 	background-repeat no-repeat
 	background-size 100%
 	width 55%
-	height 200px
+	height 220px
 	margin 0 auto
 	padding 0
 	/*background-color #fff
@@ -442,15 +441,22 @@ a.arrow-right
 	-moz-transition all 0.3s ease-in-out
 	-o-transition all 0.3s ease-in-out
 	transition all 0.3s ease-in-out
+	color transparent
+	height 50px
+	font-size 28px
+	margin-left 15px
 
 .facebook-share:hover, .twitter-share:hover, .instagram-share:hover
 	background-image url('/img/iconos/networks_hover.png')
 	background-size 300%
 	background-repeat no-repeat
+	color transparent
 
-.facebook-share, .twitter-share, .instagram-share
-	width 20px
-	height 30px
+/*.facebook-share, .twitter-share, .instagram-share
+	margin 0
+	padding 0
+	width 15px
+	height 22px*/
 
 .facebook-share
 	background-position 0 0
@@ -458,14 +464,14 @@ a.arrow-right
 		background-position 0 0
 
 .twitter-share
-	background-position -30px 0
+	background-position -32px 0
 	&:hover
-		background-position -30px 0
+		background-position -32px 0
 
 .instagram-share
-	background-position -60px 0
+	background-position -64px 0
 	&:hover
-		background-position -60px 0
+		background-position -64px 0
 
 .newlester
 	background-color transparent
@@ -599,3 +605,4 @@ a.terminos
 				padding-bottom 3px
 				text-align justify
 
+@import 'responsive.styl'
