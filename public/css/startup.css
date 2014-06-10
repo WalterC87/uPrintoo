@@ -165,11 +165,11 @@ nav .navegacion div.social-menu ul li:first-child{display:none}
 .twitter-share:hover{background-position:-47px 0}
 .instagram-share{background-position:-94px 0;}
 .instagram-share:hover{background-position:-94px 0}
-.centrada{width:100%;left:-50px}
+.centrada{width:100%;left:-35px}
 #portada .centrada{padding:0;}
 #portada .centrada .center .godown{margin:0 auto;padding:0;width:10%;margin-top:-135px;}
 #portada .centrada .center .godown a.arrow-down{width:100%}
-.texto-principal{padding-top:35px;font-size:35px;line-height:110%}
+.texto-principal{padding-top:35px;font-size:30px;line-height:110%}
 .sub-principal{line-height:115%;font-size:60px}
 .texto-portada{font-size:28px;left:0;right:0;top:0;bottom:0;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto}
 .slide .info-features{height:1350px;}
