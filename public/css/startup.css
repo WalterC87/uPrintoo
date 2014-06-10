@@ -121,12 +121,13 @@ nav .navegacion div.brand{text-align:center}
 nav .navegacion div.text-header{padding-top:10px;padding-bottom:10px;background-color:#9df41c}
 nav .navegacion div.social-menu{text-align:center;margin-top:-10px;}
 nav .navegacion div.social-menu ul li:first-child{display:none}
-.facebook-share,.twitter-share,.instagram-share{font-size:45px}
-.twitter-share{background-position:-53px 0;}
-.twitter-share:hover{background-position:-53px 0}
-.instagram-share{background-position:-106px 0;}
-.instagram-share:hover{background-position:-106px 0}
+.facebook-share,.twitter-share,.instagram-share{font-size:40px}
+.twitter-share{background-position:-47px 0;}
+.twitter-share:hover{background-position:-47px 0}
+.instagram-share{background-position:-94px 0;}
+.instagram-share:hover{background-position:-94px 0}
 .centrada{width:90%}
+#portada .centrada{padding:0;}
 #portada .centrada .center .godown{margin-top:-35px}
 .texto-principal{padding-top:35px;font-size:35px;line-height:110%}
 .sub-principal{line-height:115%;font-size:60px}
@@ -151,7 +152,7 @@ nav .navegacion div.social-menu ul li:first-child{display:none}
 #contact .container article div.row-fluid div.offset1 div.span12 p.correo{margin-bottom:25px;margin-top:10px;margin-left:0;background-color:#9df41c;color:#000;padding-top:10px}
 #contact .container article div.row-fluid div.offset1 h5{display:none}
 }@media only screen and (min-width: 480px) and (max-width:767px){body{margin:0;padding:0}
-nav{height:175px;}
+nav{height:178px;}
 nav .navegacion{width:100%;height:100px;}
 nav .navegacion img{width:55%}
 nav .navegacion div.brand,nav .navegacion div.text-header,nav .navegacion div.social-menu{width:100%}
@@ -159,12 +160,13 @@ nav .navegacion div.brand{text-align:center}
 nav .navegacion div.text-header{padding-top:10px;padding-bottom:10px;background-color:#9df41c}
 nav .navegacion div.social-menu{text-align:center;}
 nav .navegacion div.social-menu ul li:first-child{display:none}
-.facebook-share,.twitter-share,.instagram-share{font-size:45px}
-.twitter-share{background-position:-53px 0;}
-.twitter-share:hover{background-position:-53px 0}
-.instagram-share{background-position:-106px 0;}
-.instagram-share:hover{background-position:-106px 0}
+.facebook-share,.twitter-share,.instagram-share{font-size:40px}
+.twitter-share{background-position:-47px 0;}
+.twitter-share:hover{background-position:-47px 0}
+.instagram-share{background-position:-94px 0;}
+.instagram-share:hover{background-position:-94px 0}
 .centrada{width:100%;left:-50px}
+#portada .centrada{padding:0;}
 #portada .centrada .center .godown{margin:0 auto;padding:0;width:10%;margin-top:-135px;}
 #portada .centrada .center .godown a.arrow-down{width:100%}
 .texto-principal{padding-top:35px;font-size:35px;line-height:110%}
@@ -189,8 +191,8 @@ nav .navegacion div.social-menu ul li:first-child{display:none}
 #contact .container article div.row-fluid div.offset1 div.span12 h6{display:none}
 #contact .container article div.row-fluid div.offset1 div.span12 p.correo{margin-bottom:25px;margin-top:10px;background-color:#9df41c;color:#000;padding-top:10px}
 #contact .container article div.row-fluid div.offset1 h5{display:none}
-}@media only screen and (max-width: 479px){body{margin:0;padding:0}
-nav{height:175px;}
+}@media only screen and (min-width: 320px) and (max-width:479px){body{margin:0;padding:0}
+nav{height:160px;}
 nav .navegacion{width:100%;height:100px;}
 nav .navegacion img{width:55%}
 nav .navegacion div.brand,nav .navegacion div.text-header,nav .navegacion div.social-menu{width:100%}
@@ -198,29 +200,29 @@ nav .navegacion div.brand{text-align:center}
 nav .navegacion div.text-header{padding-top:10px;padding-bottom:10px;background-color:#9df41c}
 nav .navegacion div.social-menu{text-align:center;}
 nav .navegacion div.social-menu ul li:first-child{display:none}
-.facebook-share,.twitter-share,.instagram-share{font-size:45px}
-.twitter-share{background-position:-53px 0;}
-.twitter-share:hover{background-position:-53px 0}
-.instagram-share{background-position:-106px 0;}
-.instagram-share:hover{background-position:-106px 0}
-.centrada{width:100%;left:-50px}
-#portada .centrada .center .godown{margin:0 auto;padding:0;width:10%;margin-top:-135px;}
+.facebook-share,.twitter-share,.instagram-share{font-size:40px}
+.twitter-share{background-position:-47px 0;}
+.twitter-share:hover{background-position:-47px 0}
+.instagram-share{background-position:-94px 0;}
+.instagram-share:hover{background-position:-94px 0}
+.centrada{width:100%;left:-50px;padding:0}
+#portada .centrada .center .godown{margin:0 auto;padding:0;width:10%;margin-top:-160px;}
 #portada .centrada .center .godown a.arrow-down{width:100%}
 .texto-principal{padding-top:35px;font-size:35px;line-height:110%}
-.sub-principal{line-height:115%;font-size:60px}
+.sub-principal{line-height:115%;font-size:50px}
 .texto-portada{font-size:19px;left:0;right:0;top:0;bottom:0;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto}
 .slide .info-features{height:1350px;}
-.slide .info-features div.container div.row-fluid div.center a.arrow-down{margin:0 auto;padding:0;width:10%;margin-top:50%}
+.slide .info-features div.container div.row-fluid div.center a.arrow-down{margin:0 auto;padding:0;width:10%;margin-top:60%}
 .slide .info-portada-ultima div.container div.center h3.texto-portada{font-size:18px}
 .arrow-down{margin:0 auto;padding:0;width:10%;margin-top:-5px}
 .funciona{width:80%}
 .feature{background-color:transparent;-webkit-border-radius:25px;-moz-border-radius:25px;-o-border-radius:25px;-ms-border-radius:25px;height:420px;width:100%;margin:0 auto;padding:0;margin-top:-10px;}
 .feature .info{padding-top:34px;}
 .feature .info p{font-family:'Ubuntu';font-size:20px;line-height:120%;margin-top:-35px}
-.tag,.gift,.guest{width:100px;top:12%;left:-12%}
+.tag,.gift,.guest{width:100px;top:10%;left:-12%}
 .gift{background-position:-100px 0}
 .guest{background-position:-200px 0}
-.contenedor{width:35%;height:220px;margin:0 auto;padding:0;margin-top:10%}
+.contenedor{width:40%;height:220px;margin:0 auto;padding:0;margin-top:10%}
 .newlester{margin-left:0}
 #contact .container article div.row-fluid div.span3{margin-bottom:10px;}
 #contact .container article div.row-fluid div.span3 a.terminos{text-align:center;text-decoration:underline}
